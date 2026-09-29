@@ -3,6 +3,7 @@ $ErrorActionPreference = 'Stop'
 $candidates = @(
     (Join-Path $env:ProgramFiles 'Docker\Docker\resources\bin'),
     (Join-Path $env:LOCALAPPDATA 'Docker\resources\bin'),
+    (Join-Path $env:LOCALAPPDATA 'Programs\DockerDesktop\resources\bin'),
     (Join-Path $env:LOCALAPPDATA 'Programs\Docker Desktop\resources\bin')
 )
 

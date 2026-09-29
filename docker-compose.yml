@@ -6,7 +6,7 @@ services:
     image: floodwatch_3:local
     container_name: floodwatch_3
     ports:
-      - "8010:8010"
+      - "7120:8010"
     gpus: all
     environment:
       HF_HOME: /app/model-cache/huggingface

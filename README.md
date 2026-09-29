@@ -42,7 +42,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\prepare_docker_cli.ps1
 docker compose up --build
 ```
 
-Open `http://localhost:8010`, upload an image, and confirm that the analysis completes. The first build downloads the Linux CUDA PyTorch packages and can take time. Stop the service with `docker compose down`.
+Open `http://localhost:7120`, upload an image, and confirm that the analysis completes. The first build downloads the Linux CUDA PyTorch packages and can take time. Stop the service with `docker compose down`.
 
 The Docker build intentionally excludes `.venv`, `model-cache`, and generated `runtime` outputs. The `model-cache` folder and its 3.4 GiB of files must stay alongside `docker-compose.yml` while the container runs.
 "# floodwatch" 
