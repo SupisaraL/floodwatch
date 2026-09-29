@@ -1,0 +1,20 @@
+{
+  "threshold": 0.5,
+  "status": "validation_precision_target_met",
+  "precision_target": 0.8,
+  "validation_metrics": {
+    "threshold": 0.5,
+    "tp": 530329.0,
+    "fp": 51169.0,
+    "fn": 113700.0,
+    "tn": 2853614.0,
+    "valid_pixels": 3548812.0,
+    "iou": 0.7628459805695643,
+    "dice": 0.8654709361768448,
+    "precision": 0.91200485642255,
+    "recall": 0.8234551549697297,
+    "accuracy": 0.9535424812585169
+  },
+  "selection_split": "validation",
+  "probability_calibrated": false
+}

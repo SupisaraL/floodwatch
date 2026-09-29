@@ -1,0 +1,21 @@
+{
+  "threshold": 0.5,
+  "mask_threshold": 0.5,
+  "selection_split": "validation",
+  "selection_rule": "maximum instance F1; higher recall then lower threshold for ties",
+  "metrics": {
+    "threshold": 0.5,
+    "tp": 82.0,
+    "fp": 41.0,
+    "fn": 55.0,
+    "tn": 0.0,
+    "valid_pixels": 178.0,
+    "iou": 0.4606741573033708,
+    "dice": 0.6307692307692307,
+    "precision": 0.6666666666666666,
+    "recall": 0.5985401459854015,
+    "accuracy": 0.4606741573033708,
+    "n_images": 5.0,
+    "instance_f1": 0.6307692307692307
+  }
+}

@@ -1,0 +1,17 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.9,<1
+numpy>=1.26,<3
+Pillow>=11,<13
+opencv-python>=4.10,<5
+kornia>=0.7,<1
+matplotlib>=3.8,<4
+# This research pipeline requires CUDA. On Windows install the verified GPU
+# build with setup_windows_gpu.ps1 before installing this file.
+# The generic PyPI builds of torch/torchvision may be CPU-only.
+transformers==5.17.0
+huggingface_hub>=1.0,<2
+accelerate>=1,<2
+safetensors>=0.4
+pyproj>=3.6,<4
+geocalib @ https://github.com/cvg/GeoCalib/archive/refs/heads/main.zip

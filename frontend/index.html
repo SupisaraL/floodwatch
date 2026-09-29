@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Local drone flood-image analysis workspace." />
+    <title>FloodWatch | วิเคราะห์ภาพน้ำท่วม</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="stylesheet" href="/assets/styles.css?v=user-flood-open-1" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">LOCAL RESEARCH WORKSPACE</p>
+        <h1>FloodWatch</h1>
+      </div>
+      <p class="service-state" id="service-state">ตรวจสอบบริการวิเคราะห์…</p>
+    </header>
+
+    <main>
+      <nav class="tabs" aria-label="หน้าการทำงาน">
+        <button class="tab is-active" data-tab="analysis">วิเคราะห์ภาพ</button>
+        <button class="tab" data-tab="map">แผนที่อ้างอิง</button>
+        <button class="tab" data-tab="research">รายงานผลการศึกษา</button>
+      </nav>
+
+      <section id="analysis" class="view is-active" aria-labelledby="analysis-title">
+        <div class="workspace-grid">
+          <aside class="panel upload-panel">
+            <div>
+              <p class="eyebrow">STEP 01</p>
+              <h2 id="analysis-title">อัปโหลดภาพถ่ายโดรน</h2>
+              <p class="muted">รองรับ JPG, PNG และ TIFF สำหรับการวิเคราะห์ในเครื่อง</p>
+            </div>
+            <label class="field-label sample-image-select" for="sample-image-select">เลือกตัวอย่างภาพสำหรับประมวลผล
+              <select id="sample-image-select">
+                <option value="">เลือกภาพตัวอย่าง</option>
+                <option value="TEST_IMAGE_1">น้ำท่วมน่าน</option>
+                <option value="TEST_IMAGE_2">น้ำท่วมเชียงใหม่</option>
+                <option value="TEST_IMAGE_3">น้ำท่วมเชียงราย</option>
+                <option value="TEST_IMAGE_4">น้ำท่วมกรุงเทพ</option>
+              </select>
+            </label>
+            <label class="dropzone" for="image-input" id="dropzone">
+              <input id="image-input" type="file" accept="image/jpeg,image/png,image/tiff,.tif,.tiff" />
+              <span class="dropzone-empty" id="dropzone-empty"><span class="dropzone-icon">+</span><strong>เลือกภาพ หรือลากไฟล์มาวาง</strong><small id="file-name">ยังไม่ได้เลือกไฟล์</small></span>
+              <span class="dropzone-preview" id="dropzone-preview" hidden><img id="upload-preview" alt="ภาพตัวอย่างก่อนประมวลผล" /><span><strong id="preview-title"></strong><small>คลิกภาพเพื่อเลือกอัปโหลดรูปใหม่</small></span></span>
+            </label>
+            <label class="toggle-row">
+              <input id="geo-filter" type="checkbox" checked />
+              <span><strong>จำกัดการตรวจจับอาคารตาม GeoCalib</strong><small>ใช้บริเวณ near และ mid ภายในกระบวนการ SAM3 โดยไม่แสดงชั้น GeoCalib บนภาพผลลัพธ์</small></span>
+            </label>
+            <p class="small-note sam-threshold-fixed">SAM3 confidence threshold กำหนดคงที่ที่ 50% ตามผล validation</p>
+            <button class="primary-button" id="analyse-button" disabled>เริ่มวิเคราะห์ภาพ</button>
+            <p class="small-note">ผลอาคารหมายถึงจำนวน mask ที่ SAM3 ตรวจจับได้ ไม่ใช่จำนวนอาคารจริงที่ยืนยันแล้ว</p>
+          </aside>
+
+          <section class="panel results-panel" aria-live="polite">
+            <div class="results-heading"><div><p class="eyebrow">STEP 02</p><h2>ผลการวิเคราะห์</h2></div><span class="status-pill" id="analysis-status">รอภาพ</span></div>
+            <div id="empty-result" class="empty-state"><div class="empty-mark">⌁</div><p>ผลการจำแนกพื้นที่น้ำและจำนวนอาคารจะแสดงที่นี่</p></div>
+            <div id="result-content" hidden>
+              <div class="metrics-grid">
+                <article class="metric-card water-card"><span>พื้นที่น้ำ</span><strong id="water-percent">—</strong><small>ของพื้นที่ภาพทั้งหมด</small></article>
+                <article class="metric-card"><span>จำนวนอาคาร</span><strong id="building-count">—</strong><small>mask ที่ SAM3 ตรวจจับได้</small></article>
+                <article class="metric-card"><span>จำนวนยานพาหนะ</span><strong id="vehicle-count">—</strong><small>mask ที่ SAM3 ตรวจจับได้</small></article>
+                <article class="metric-card"><span>พื้นที่สีเขียว</span><strong id="green-percent">—</strong><small>สัดส่วนระดับพิกเซล</small></article>
+                <article class="metric-card"><span>พื้นที่สิ่งปลูกสร้าง</span><strong id="built-percent">—</strong><small>สัดส่วนพิกเซลที่ DINOv3 คาดการณ์</small></article>
+              </div>
+              <div class="result-tabs" role="tablist" aria-label="มุมมองผลลัพธ์">
+                <button class="result-tab is-active" data-result="water">พื้นที่น้ำ</button><button class="result-tab" data-result="buildings">จำนวนอาคาร</button><button class="result-tab" data-result="vehicles">ยานพาหนะ</button><button class="result-tab" id="trees-result-tab" data-result="trees">พื้นที่ต้นไม้</button><button class="result-tab" data-result="semantic">ทุกชั้นข้อมูล</button>
+              </div>
+              <figure class="result-figure"><img id="result-image" alt="ผลการวิเคราะห์ภาพ" /><figcaption id="result-caption">พื้นที่น้ำที่ DINOv3 ทำนาย</figcaption></figure>
+              <p id="sam-region-note" class="small-note" hidden></p>
+              <p id="sam-threshold-note" class="small-note"></p>
+              <section class="class-summary"><h3>สัดส่วนองค์ประกอบพื้นที่</h3><div id="class-bars"></div></section>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="research" class="view" aria-labelledby="research-title">
+        <header class="research-intro">
+          <p class="eyebrow">CM FLOOD RESEARCH</p>
+          <h2 id="research-title">รายงานผลการศึกษาจากชุดข้อมูลวิจัย</h2>
+          <p class="muted">แสดงผลที่สร้างไว้แล้วจากการทดลอง โดยไม่รันโมเดลซ้ำ เลือกใช้เพื่ออธิบายวิธีการ ผลเชิงปริมาณ และตัวอย่างภาพผลลัพธ์</p>
+        </header>
+        <section id="research-overview" class="metrics-grid research-metrics" aria-label="ตัวชี้วัดหลักของการศึกษา"></section>
+        <section class="panel cm-gallery" aria-label="ภาพสรุปรายภาพ CM">
+          <div class="section-heading cm-gallery-heading"><div class="gallery-heading-left"><p class="eyebrow">CM IMAGE GALLERY</p><output id="cm-gallery-title" class="gallery-image-label">กำลังโหลดภาพ…</output></div><div class="gallery-header-actions"><output id="cm-gallery-counter" class="gallery-counter">— / 35</output><div class="cm-gallery-controls" aria-label="เลื่อนดูภาพ"><button id="cm-gallery-prev" class="secondary-button" type="button" aria-label="ภาพก่อนหน้า">◀</button><button id="cm-gallery-next" class="secondary-button" type="button" aria-label="ภาพถัดไป">▶</button></div></div></div>
+          <figure class="cm-gallery-frame"><img id="cm-gallery-image" class="cm-gallery-image" alt="ภาพสรุปผลของ CM" /></figure>
+          <div id="cm-gallery-stats" class="cm-gallery-stats" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <section id="map" class="view" aria-labelledby="map-title">
+        <div class="map-page-heading"><div><p class="eyebrow">SPATIAL REFERENCE WORKSPACE</p><h2 id="map-title">แผนที่อ้างอิง</h2><p class="muted">แผนที่นี้แสดงจุดอาคารที่ SAM ตรวจจับและจุดอ้างอิงของทั้ง 17 กลุ่มภาพ</p></div><output id="map-cursor" class="map-cursor">เลื่อนเมาส์บนแผนที่เพื่อดูพิกัด</output></div>
+        <div class="map-workspace">
+          <aside class="map-sidebar">
+            <section class="panel"><p class="eyebrow">REFERENCE LAYERS</p><h3>ชั้นข้อมูลที่แสดง</h3><ul class="map-legend"><li><i class="legend-depth"></i>(ดัดแปลงข้อมูลจาก: CM Flood Mark 2024 ด้วยวิธีการ IDW)</li><li><i class="legend-boundary"></i>ขอบเขตเทศบาลนครเชียงใหม่</li><li><i class="legend-image-zone"></i>กรอบชุดภาพ: สีเข้มขึ้นตามจำนวนภาพ</li></ul><p class="small-note" id="map-reference-note"></p></section>
+            <section class="panel spatial-details"><h3>เพิ่มภาพน้ำท่วมของผู้ใช้</h3><p class="small-note">ตั้งชื่อจุด เลือกภาพ แล้วคลิกตำแหน่งที่ภาพถ่ายบนแผนที่ ระบบจะแสดงหมุดเดียวพร้อมกรอบสี่เหลี่ยมสีเหลือง</p><label class="field-label">ชื่อจุดน้ำท่วม<input id="user-flood-name" type="text" placeholder="เช่น ชุมชนวัดเกต วันที่ 12 ก.ย." /></label><label class="compact-upload" for="user-flood-image"><input id="user-flood-image" type="file" accept="image/jpeg,image/png,image/webp" /><strong>เลือกรูปภาพน้ำท่วม</strong><small id="user-flood-image-name">ยังไม่ได้เลือกไฟล์</small></label><button class="secondary-button" id="user-flood-start" type="button">เลือกตำแหน่งบนแผนที่</button><button class="text-button" id="user-flood-clear" type="button">ล้างจุดภาพน้ำท่วมที่เพิ่มในเบราว์เซอร์นี้</button><p id="user-flood-status" class="small-note">เลือกภาพและตั้งชื่อก่อน แล้วจึงเริ่มเลือกตำแหน่ง</p></section>
+          </aside>
+          <section class="panel map-panel"><div class="map-panel-toolbar"><div><p class="eyebrow">2D REFERENCE MAP</p><h3>ชั้นข้อมูลอ้างอิง</h3></div><button class="secondary-button map-3d-button" id="open-3d-map" type="button">เปิดชั้นอาคาร 3D</button></div><div id="leaflet-map" aria-label="แผนที่อ้างอิงพื้นที่ศึกษา"></div><p class="small-note">เลือกเปิดหรือปิดแต่ละกลุ่ม CM จากตัวควบคุมด้านขวาบนของแผนที่ได้ หมุด i คือจุดอ้างอิง ส่วนจุดกลมคืออาคารที่ SAM ตรวจจับได้</p></section>
+        </div>
+      </section>
+    </main>
+    <dialog id="map-3d-dialog" class="map-3d-dialog" aria-labelledby="map-3d-title">
+      <div class="map-3d-heading">
+        <div><p class="eyebrow">OPENSTREETMAP BUILDINGS</p><h2 id="map-3d-title">ชั้นอาคาร 3D</h2><p class="small-note">เลื่อนล้อเมาส์เพื่อซูม · กดปุ่มกลางเมาส์ค้างแล้วลากเพื่อหมุนหรือเอียงมุมมอง</p></div>
+        <button class="secondary-button" id="close-3d-map" type="button">ปิด</button>
+      </div>
+      <div class="map-3d-canvas-wrap">
+        <div id="building-3d-map" aria-label="แผนที่อาคารสามมิติ"></div>
+        <aside class="map-3d-legend" aria-label="คำอธิบายชั้นข้อมูลแผนที่ 3D">
+          <section><h3>Image points and references</h3><p><i class="map-3d-dot"></i><span>SAM3 detected building</span></p><p><i class="map-3d-pin"><b>i</b></i><span>Pin – reference coordinate</span></p></section>
+          <section><h3>Flood depth (IDW)</h3><p><i class="idw-step idw-30"></i><span>30 cm</span></p><p><i class="idw-step idw-40"></i><span>40 cm</span></p><p><i class="idw-step idw-50"></i><span>50 cm</span></p><p><i class="idw-step idw-60"></i><span>60 cm</span></p><p><i class="idw-step idw-70"></i><span>70 cm</span></p><p><i class="idw-step idw-80"></i><span>80 cm</span></p><p><i class="idw-step idw-90"></i><span>90 cm or more</span></p></section>
+        </aside>
+      </div>
+      <p id="map-3d-status" class="small-note">กำลังเตรียมอาคาร 3D, จุด SAM, หมุดอ้างอิง และชั้นน้ำ IDW…</p>
+    </dialog>
+    <template id="class-bar-template"><div class="class-row"><span></span><div><i></i></div><strong></strong></div></template>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+    <script src="/assets/app.js?v=sam50-locked-1"></script>
+  </body>
+</html>

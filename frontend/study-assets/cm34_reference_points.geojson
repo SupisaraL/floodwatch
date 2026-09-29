@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 1,
+        "longitude": 99.002386,
+        "latitude": 18.801351,
+        "role": "fit",
+        "x_bl": 929.3,
+        "y_bl": 283.9,
+        "point_source": "marked_center",
+        "error_m": 7.7012388847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.002386,
+          18.801351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 2,
+        "longitude": 99.000181,
+        "latitude": 18.800961,
+        "role": "fit",
+        "x_bl": 1302.3,
+        "y_bl": 433.9,
+        "point_source": "marked_center",
+        "error_m": 5.3702237507
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.000181,
+          18.800961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 3,
+        "longitude": 99.002312,
+        "latitude": 18.800079,
+        "role": "fit",
+        "x_bl": 763.3,
+        "y_bl": 443.7,
+        "point_source": "marked_center",
+        "error_m": 17.7788525832
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.002312,
+          18.800079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 4,
+        "longitude": 99.003795,
+        "latitude": 18.799572,
+        "role": "fit",
+        "x_bl": 402.7,
+        "y_bl": 483.4,
+        "point_source": "marked_center",
+        "error_m": 27.2481232038
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.003795,
+          18.799572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 5,
+        "longitude": 99.004711,
+        "latitude": 18.797303,
+        "role": "fit",
+        "x_bl": 202.8,
+        "y_bl": 561.2,
+        "point_source": "marked_center",
+        "error_m": 9.6641124498
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.004711,
+          18.797303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 6,
+        "longitude": 99.00469,
+        "latitude": 18.80114,
+        "role": "check",
+        "x_bl": 210.5,
+        "y_bl": 136.9,
+        "point_source": "marked_center",
+        "error_m": 99.9620393605
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00469,
+          18.80114
+        ]
+      }
+    }
+  ]
+}

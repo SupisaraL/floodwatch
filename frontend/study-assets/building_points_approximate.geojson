@@ -1,0 +1,4165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S001",
+        "source_csv_line": 1812,
+        "longitude": 99.0046172823,
+        "latitude": 18.8110335683,
+        "x_bl": 168.7565563199,
+        "y_bl": 279.0995270851,
+        "sam_confidence_score": 0.8737476468,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3005159071,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00461728228355,
+          18.81103356832967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S002",
+        "source_csv_line": 1813,
+        "longitude": 99.0010639543,
+        "latitude": 18.8080428824,
+        "x_bl": 1389.1336832356,
+        "y_bl": 530.0189873418,
+        "sam_confidence_score": 0.866979599,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.0817381908,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00106395431996,
+          18.808042882423756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S003",
+        "source_csv_line": 1814,
+        "longitude": 99.007241067,
+        "latitude": 18.8075779116,
+        "x_bl": 335.0742459397,
+        "y_bl": 667.8549883991,
+        "sam_confidence_score": 0.8493646979,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3747099768,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00724106701699,
+          18.807577911639594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S004",
+        "source_csv_line": 1815,
+        "longitude": 99.002149685,
+        "latitude": 18.8106942632,
+        "x_bl": 1019.7918660287,
+        "y_bl": 154.5188573037,
+        "sam_confidence_score": 0.8378890753,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.2766676048,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00214968504176,
+          18.81069426316319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S005",
+        "source_csv_line": 1816,
+        "longitude": 99.0064003751,
+        "latitude": 18.8071389793,
+        "x_bl": 478.9371002132,
+        "y_bl": 677.0170575693,
+        "sam_confidence_score": 0.8330976367,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00640037509976,
+          18.80713897927723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S006",
+        "source_csv_line": 1817,
+        "longitude": 99.0024235469,
+        "latitude": 18.809747809,
+        "x_bl": 986.398296837,
+        "y_bl": 375.89513382,
+        "sam_confidence_score": 0.8200569749,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.7844282238,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0024235469427,
+          18.80974780904598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S007",
+        "source_csv_line": 1818,
+        "longitude": 99.004074244,
+        "latitude": 18.8111224748,
+        "x_bl": 283.288964182,
+        "y_bl": 218.9937076476,
+        "sam_confidence_score": 0.816429019,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6795740561,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00407424395986,
+          18.811122474759987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S008",
+        "source_csv_line": 1819,
+        "longitude": 99.0069180922,
+        "latitude": 18.8053873031,
+        "x_bl": 556.8048780488,
+        "y_bl": 738.6219512195,
+        "sam_confidence_score": 0.8147613406,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00691809218603,
+          18.805387303065437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S009",
+        "source_csv_line": 1820,
+        "longitude": 99.0020570917,
+        "latitude": 18.8078743691,
+        "x_bl": 1144.9794765021,
+        "y_bl": 569.4744199881,
+        "sam_confidence_score": 0.7923449874,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.7239738251,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00205709172117,
+          18.807874369131852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S010",
+        "source_csv_line": 1821,
+        "longitude": 99.0004648944,
+        "latitude": 18.8045741527,
+        "x_bl": 1424.8029739777,
+        "y_bl": 718.9460966543,
+        "sam_confidence_score": 0.7864634395,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00046489444378,
+          18.804574152687223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S011",
+        "source_csv_line": 1822,
+        "longitude": 99.0014310936,
+        "latitude": 18.8070367928,
+        "x_bl": 1284.1789297659,
+        "y_bl": 615.1558900037,
+        "sam_confidence_score": 0.776597023,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.4760312152,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0014310936321,
+          18.807036792818153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S012",
+        "source_csv_line": 1823,
+        "longitude": 99.0046485035,
+        "latitude": 18.808057209,
+        "x_bl": 640.8930131004,
+        "y_bl": 608.1240902475,
+        "sam_confidence_score": 0.7664886117,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1957787482,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.004648503519,
+          18.808057209003334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S013",
+        "source_csv_line": 1824,
+        "longitude": 99.0035408224,
+        "latitude": 18.8110641199,
+        "x_bl": 456.0514079895,
+        "y_bl": 187.3048461035,
+        "sam_confidence_score": 0.7634421587,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0035408223619,
+          18.811064119856027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S014",
+        "source_csv_line": 1825,
+        "longitude": 99.0045122885,
+        "latitude": 18.8115494154,
+        "x_bl": 21.9408732565,
+        "y_bl": 149.0664038811,
+        "sam_confidence_score": 0.7601578236,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.5021224985,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0045122885365,
+          18.811549415366752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S015",
+        "source_csv_line": 1826,
+        "longitude": 99.0052943809,
+        "latitude": 18.8075196798,
+        "x_bl": 590.2870905588,
+        "y_bl": 647.1734104046,
+        "sam_confidence_score": 0.7478474975,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.394026975,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00529438090054,
+          18.80751967979071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S016",
+        "source_csv_line": 1827,
+        "longitude": 99.0037238006,
+        "latitude": 18.8110802053,
+        "x_bl": 395.8416592328,
+        "y_bl": 199.5187332739,
+        "sam_confidence_score": 0.7455014586,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00372380056625,
+          18.81108020526231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S017",
+        "source_csv_line": 1828,
+        "longitude": 99.0043671836,
+        "latitude": 18.8092143815,
+        "x_bl": 569.6725537962,
+        "y_bl": 515.182907024,
+        "sam_confidence_score": 0.7388570905,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3524157531,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0043671835845,
+          18.80921438150135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S018",
+        "source_csv_line": 1829,
+        "longitude": 99.0022505155,
+        "latitude": 18.8110144547,
+        "x_bl": 948.2312072893,
+        "y_bl": 64.292308723,
+        "sam_confidence_score": 0.7368903756,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.5060967439,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00225051548908,
+          18.81101445465904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S019",
+        "source_csv_line": 1830,
+        "longitude": 99.0050476668,
+        "latitude": 18.8103301316,
+        "x_bl": 249.9465488982,
+        "y_bl": 416.1636313968,
+        "sam_confidence_score": 0.7295840979,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6430522673,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00504766677224,
+          18.810330131551325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S020",
+        "source_csv_line": 1831,
+        "longitude": 99.0070875178,
+        "latitude": 18.8012787938,
+        "x_bl": 737.3118393235,
+        "y_bl": 817.3393234672,
+        "sam_confidence_score": 0.7270032167,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00708751781761,
+          18.801278793754754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S021",
+        "source_csv_line": 1832,
+        "longitude": 99.0050228304,
+        "latitude": 18.8109855635,
+        "x_bl": 89.8780895124,
+        "y_bl": 314.3804275217,
+        "sam_confidence_score": 0.720461309,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0050228303656,
+          18.810985563464087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S022",
+        "source_csv_line": 1833,
+        "longitude": 99.0040991712,
+        "latitude": 18.810729326,
+        "x_bl": 376.5660486674,
+        "y_bl": 303.7943221321,
+        "sam_confidence_score": 0.7176708579,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00409917118971,
+          18.81072932603155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S023",
+        "source_csv_line": 1834,
+        "longitude": 99.0024253317,
+        "latitude": 18.8107455046,
+        "x_bl": 904.2917034422,
+        "y_bl": 167.5335392763,
+        "sam_confidence_score": 0.7127216458,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00242533172124,
+          18.81074550455316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S024",
+        "source_csv_line": 1835,
+        "longitude": 99.0051593362,
+        "latitude": 18.8110678735,
+        "x_bl": 35.4757653061,
+        "y_bl": 307.8711734694,
+        "sam_confidence_score": 0.7109077573,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8010204082,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00515933623886,
+          18.81106787353542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S025",
+        "source_csv_line": 1836,
+        "longitude": 99.000746455,
+        "latitude": 18.8067674164,
+        "x_bl": 1427.9333748443,
+        "y_bl": 620.0168119552,
+        "sam_confidence_score": 0.6954097152,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1108343711,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00074645501721,
+          18.806767416389697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S026",
+        "source_csv_line": 1837,
+        "longitude": 99.00412478,
+        "latitude": 18.8117677386,
+        "x_bl": 41.5577777778,
+        "y_bl": 36.7732275132,
+        "sam_confidence_score": 0.6902710795,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1426455026,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00412477998472,
+          18.81176773864247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S027",
+        "source_csv_line": 1838,
+        "longitude": 99.0042842644,
+        "latitude": 18.8115024378,
+        "x_bl": 101.6320645905,
+        "y_bl": 139.562283737,
+        "sam_confidence_score": 0.6846932769,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1926182238,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0042842643897,
+          18.811502437837323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S028",
+        "source_csv_line": 1839,
+        "longitude": 99.0011831,
+        "latitude": 18.8097803318,
+        "x_bl": 1418.1992163954,
+        "y_bl": 294.9974884469,
+        "sam_confidence_score": 0.6796748638,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0031143259,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.001183099951,
+          18.809780331840226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S029",
+        "source_csv_line": 1840,
+        "longitude": 99.0047477728,
+        "latitude": 18.807478307,
+        "x_bl": 673.4030186256,
+        "y_bl": 641.8744380218,
+        "sam_confidence_score": 0.6746537685,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1252408478,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0047477727797,
+          18.807478307028337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S030",
+        "source_csv_line": 1841,
+        "longitude": 99.0048858336,
+        "latitude": 18.8108466178,
+        "x_bl": 159.239692002,
+        "y_bl": 330.6440635867,
+        "sam_confidence_score": 0.6694588065,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0048858335989,
+          18.8108466177567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S031",
+        "source_csv_line": 1842,
+        "longitude": 99.0025789293,
+        "latitude": 18.8108031934,
+        "x_bl": 838.25,
+        "y_bl": 166.5572727273,
+        "sam_confidence_score": 0.6683918834,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00257892932203,
+          18.81080319337807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S032",
+        "source_csv_line": 1843,
+        "longitude": 99.0036633908,
+        "latitude": 18.8109077609,
+        "x_bl": 455.7278481013,
+        "y_bl": 235.6905225576,
+        "sam_confidence_score": 0.6677206159,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9539110678,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00366339077385,
+          18.81090776087138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S033",
+        "source_csv_line": 1844,
+        "longitude": 99.0054298544,
+        "latitude": 18.8104450973,
+        "x_bl": 149.1751863685,
+        "y_bl": 417.4084132055,
+        "sam_confidence_score": 0.6646004319,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3599574015,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0054298543787,
+          18.810445097341432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S034",
+        "source_csv_line": 1845,
+        "longitude": 99.0017491956,
+        "latitude": 18.8091708441,
+        "x_bl": 1209.5106847984,
+        "y_bl": 427.7423506557,
+        "sam_confidence_score": 0.6635444164,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.2102962603,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00174919557102,
+          18.809170844109104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S035",
+        "source_csv_line": 1846,
+        "longitude": 99.0015425633,
+        "latitude": 18.8098201133,
+        "x_bl": 1280.3236511996,
+        "y_bl": 311.4996346365,
+        "sam_confidence_score": 0.6598269343,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6455973694,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00154256327889,
+          18.809820113256976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S036",
+        "source_csv_line": 1847,
+        "longitude": 99.0047910119,
+        "latitude": 18.8113827992,
+        "x_bl": 14.0031390135,
+        "y_bl": 216.5242152466,
+        "sam_confidence_score": 0.6592029929,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1838565022,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00479101193461,
+          18.811382799221008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S037",
+        "source_csv_line": 1848,
+        "longitude": 99.0025520193,
+        "latitude": 18.8109010631,
+        "x_bl": 835.6798561151,
+        "y_bl": 135.7134292566,
+        "sam_confidence_score": 0.6567846537,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9408473221,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00255201925579,
+          18.81090106309565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S038",
+        "source_csv_line": 1849,
+        "longitude": 99.0048789129,
+        "latitude": 18.8089940693,
+        "x_bl": 502.5587851078,
+        "y_bl": 547.495427825,
+        "sam_confidence_score": 0.6512067914,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.4872632266,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00487891294715,
+          18.808994069273492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S039",
+        "source_csv_line": 1850,
+        "longitude": 99.0009206946,
+        "latitude": 18.8086371841,
+        "x_bl": 1453.3283261803,
+        "y_bl": 461.9949928469,
+        "sam_confidence_score": 0.6427013874,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00092069464256,
+          18.808637184113866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S040",
+        "source_csv_line": 1851,
+        "longitude": 99.0078967698,
+        "latitude": 18.8090371592,
+        "x_bl": 59.7020535387,
+        "y_bl": 604.6129446278,
+        "sam_confidence_score": 0.6383975148,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00789676983642,
+          18.8090371591691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S041",
+        "source_csv_line": 1852,
+        "longitude": 99.0038592742,
+        "latitude": 18.8105527296,
+        "x_bl": 476.6403162055,
+        "y_bl": 321.3369565217,
+        "sam_confidence_score": 0.6313053966,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00385927416919,
+          18.810552729552047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S042",
+        "source_csv_line": 1853,
+        "longitude": 99.003935221,
+        "latitude": 18.8111644122,
+        "x_bl": 310.7438478747,
+        "y_bl": 196.9750186428,
+        "sam_confidence_score": 0.6205622554,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.206562267,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00393522097426,
+          18.811164412195218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S043",
+        "source_csv_line": 1854,
+        "longitude": 99.002023344,
+        "latitude": 18.808634731,
+        "x_bl": 1139.9613756614,
+        "y_bl": 501.0216931217,
+        "sam_confidence_score": 0.6150677204,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.5634920635,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00202334404369,
+          18.808634730962247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S044",
+        "source_csv_line": 1855,
+        "longitude": 99.002118712,
+        "latitude": 18.8108689166,
+        "x_bl": 1020.0489461358,
+        "y_bl": 97.5697892272,
+        "sam_confidence_score": 0.6124846935,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.087587822,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00211871202319,
+          18.810868916587687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S045",
+        "source_csv_line": 1856,
+        "longitude": 99.0041122253,
+        "latitude": 18.8097344111,
+        "x_bl": 553.2340540541,
+        "y_bl": 452.6135135135,
+        "sam_confidence_score": 0.6002664566,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00411222531243,
+          18.809734411104493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S046",
+        "source_csv_line": 1857,
+        "longitude": 99.0019942282,
+        "latitude": 18.8108930085,
+        "x_bl": 1074.7475015947,
+        "y_bl": 74.5002126302,
+        "sam_confidence_score": 0.5974502563,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1356580906,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00199422823421,
+          18.8108930085078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S047",
+        "source_csv_line": 1858,
+        "longitude": 99.0041383826,
+        "latitude": 18.8109556115,
+        "x_bl": 311.185840708,
+        "y_bl": 261.2831858407,
+        "sam_confidence_score": 0.5960463881,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00413838264977,
+          18.810955611527028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S048",
+        "source_csv_line": 1859,
+        "longitude": 99.0029079974,
+        "latitude": 18.8072039508,
+        "x_bl": 992.2792665726,
+        "y_bl": 629.6417489422,
+        "sam_confidence_score": 0.592893362,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.4732016925,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00290799736825,
+          18.80720395083167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S049",
+        "source_csv_line": 1860,
+        "longitude": 99.0018819456,
+        "latitude": 18.8099040751,
+        "x_bl": 1156.6704225352,
+        "y_bl": 317.4830985915,
+        "sam_confidence_score": 0.5896326303,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8953051643,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00188194562398,
+          18.809904075066196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S050",
+        "source_csv_line": 1861,
+        "longitude": 99.0026124161,
+        "latitude": 18.8107233954,
+        "x_bl": 835.9505649718,
+        "y_bl": 191.1807909605,
+        "sam_confidence_score": 0.5890155435,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00261241606776,
+          18.810723395353406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S051",
+        "source_csv_line": 1862,
+        "longitude": 99.0027939395,
+        "latitude": 18.8083692444,
+        "x_bl": 966.6185789726,
+        "y_bl": 547.3819011042,
+        "sam_confidence_score": 0.5862088203,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8449351896,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00279393950923,
+          18.80836924441255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S052",
+        "source_csv_line": 1863,
+        "longitude": 99.0025034842,
+        "latitude": 18.8109889716,
+        "x_bl": 843.1598480421,
+        "y_bl": 103.2159555815,
+        "sam_confidence_score": 0.5773807168,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8357685564,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00250348419002,
+          18.810988971649614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S053",
+        "source_csv_line": 1864,
+        "longitude": 99.0039824238,
+        "latitude": 18.811280877,
+        "x_bl": 262.6432896065,
+        "y_bl": 171.1892028254,
+        "sam_confidence_score": 0.57584548,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.0832492432,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00398242377652,
+          18.81128087704859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S054",
+        "source_csv_line": 1865,
+        "longitude": 99.0021752394,
+        "latitude": 18.8098562921,
+        "x_bl": 1058.6120426829,
+        "y_bl": 344.1798780488,
+        "sam_confidence_score": 0.5735075474,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.7926829268,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00217523935495,
+          18.809856292113686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S055",
+        "source_csv_line": 1866,
+        "longitude": 99.0044780603,
+        "latitude": 18.8114669641,
+        "x_bl": 62.2011857708,
+        "y_bl": 168.1577075099,
+        "sam_confidence_score": 0.572968781,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.4355731225,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00447806029004,
+          18.811466964113137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S056",
+        "source_csv_line": 1867,
+        "longitude": 99.001893069,
+        "latitude": 18.8095114669,
+        "x_bl": 1160.7136137244,
+        "y_bl": 385.3710570006,
+        "sam_confidence_score": 0.5717658997,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8082457111,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0018930689555,
+          18.809511466859394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S057",
+        "source_csv_line": 1868,
+        "longitude": 99.0028783976,
+        "latitude": 18.8087057455,
+        "x_bl": 930.0447098976,
+        "y_bl": 519.9252559727,
+        "sam_confidence_score": 0.5694529414,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.5255972696,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00287839761864,
+          18.80870574552327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S058",
+        "source_csv_line": 1869,
+        "longitude": 99.0057771203,
+        "latitude": 18.8058285945,
+        "x_bl": 652.1656626506,
+        "y_bl": 718.3448795181,
+        "sam_confidence_score": 0.5661033392,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.5753012048,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00577712027956,
+          18.805828594485934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S059",
+        "source_csv_line": 1870,
+        "longitude": 99.0024936686,
+        "latitude": 18.8110763174,
+        "x_bl": 834.8556561086,
+        "y_bl": 73.1244343891,
+        "sam_confidence_score": 0.5660281181,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.7158371041,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00249366855451,
+          18.811076317353304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S060",
+        "source_csv_line": 1871,
+        "longitude": 99.0013656754,
+        "latitude": 18.8061671825,
+        "x_bl": 1290.5218658892,
+        "y_bl": 662.3017492711,
+        "sam_confidence_score": 0.5632379055,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00136567544764,
+          18.806167182473427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S061",
+        "source_csv_line": 1872,
+        "longitude": 99.0014907508,
+        "latitude": 18.8106721284,
+        "x_bl": 1319.9104963385,
+        "y_bl": 88.286004882,
+        "sam_confidence_score": 0.5582711101,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3832384052,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0014907507593,
+          18.810672128400267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S062",
+        "source_csv_line": 1873,
+        "longitude": 99.0057825776,
+        "latitude": 18.8105443868,
+        "x_bl": 59.6033210332,
+        "y_bl": 419.4073800738,
+        "sam_confidence_score": 0.5544293523,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9915129151,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0057825775811,
+          18.810544386761812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S063",
+        "source_csv_line": 1874,
+        "longitude": 99.0015319806,
+        "latitude": 18.8086116115,
+        "x_bl": 1271.948156682,
+        "y_bl": 487.2211981567,
+        "sam_confidence_score": 0.5530335307,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00153198056165,
+          18.80861161149198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S064",
+        "source_csv_line": 1875,
+        "longitude": 99.0020689754,
+        "latitude": 18.8110640976,
+        "x_bl": 1027.6301715439,
+        "y_bl": 22.0677766566,
+        "sam_confidence_score": 0.5439757109,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00206897544096,
+          18.811064097557534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S065",
+        "source_csv_line": 1876,
+        "longitude": 99.0043148145,
+        "latitude": 18.8088986612,
+        "x_bl": 616.3160843771,
+        "y_bl": 541.4321028345,
+        "sam_confidence_score": 0.5393589735,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0533948583,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00431481447954,
+          18.808898661184845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S066",
+        "source_csv_line": 1877,
+        "longitude": 99.0027596056,
+        "latitude": 18.8040976393,
+        "x_bl": 1087.4837563452,
+        "y_bl": 749.1598984772,
+        "sam_confidence_score": 0.5391205549,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00275960563994,
+          18.80409763925093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S067",
+        "source_csv_line": 1878,
+        "longitude": 99.0062781347,
+        "latitude": 18.8020616449,
+        "x_bl": 776.0637119114,
+        "y_bl": 804.1828254848,
+        "sam_confidence_score": 0.5300152898,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00627813472794,
+          18.80206164492087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S068",
+        "source_csv_line": 1879,
+        "longitude": 99.0023021874,
+        "latitude": 18.8108435426,
+        "x_bl": 943.6195372751,
+        "y_bl": 126.2879177378,
+        "sam_confidence_score": 0.5272176862,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00230218735761,
+          18.810843542608804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S069",
+        "source_csv_line": 1880,
+        "longitude": 99.0003570087,
+        "latitude": 18.8005047451,
+        "x_bl": 1374.9320457797,
+        "y_bl": 814.6874105866,
+        "sam_confidence_score": 0.5253064632,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00035700866661,
+          18.800504745093125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S070",
+        "source_csv_line": 1881,
+        "longitude": 99.004307989,
+        "latitude": 18.8116946547,
+        "x_bl": 19.0740300871,
+        "y_bl": 83.9038004751,
+        "sam_confidence_score": 0.5250958204,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.4726840855,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00430798895327,
+          18.811694654678803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S071",
+        "source_csv_line": 1882,
+        "longitude": 99.0014671969,
+        "latitude": 18.8089013995,
+        "x_bl": 1293.6746301237,
+        "y_bl": 450.9322095561,
+        "sam_confidence_score": 0.520360589,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6781469804,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00146719694276,
+          18.80890139948738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S072",
+        "source_csv_line": 1883,
+        "longitude": 99.0010164486,
+        "latitude": 18.803534487,
+        "x_bl": 1324.2240319607,
+        "y_bl": 754.4686539644,
+        "sam_confidence_score": 0.5183832049,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00101644859497,
+          18.803534486980663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S073",
+        "source_csv_line": 1884,
+        "longitude": 99.0001627976,
+        "latitude": 18.8003844842,
+        "x_bl": 1395.1719286205,
+        "y_bl": 816.1575154427,
+        "sam_confidence_score": 0.5169463754,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00016279763148,
+          18.8003844842051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S074",
+        "source_csv_line": 1885,
+        "longitude": 99.0024958606,
+        "latitude": 18.8082758968,
+        "x_bl": 1036.4436253252,
+        "y_bl": 547.7020815265,
+        "sam_confidence_score": 0.5168887973,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6504770165,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00249586055276,
+          18.808275896780987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S075",
+        "source_csv_line": 1886,
+        "longitude": 99.0023894401,
+        "latitude": 18.8080119488,
+        "x_bl": 1068.5027434842,
+        "y_bl": 566.4224965706,
+        "sam_confidence_score": 0.511292994,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1625514403,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00238944014968,
+          18.80801194878251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "instance_id": "CM_31_S076",
+        "source_csv_line": 1887,
+        "longitude": 99.0056279175,
+        "latitude": 18.8039934531,
+        "x_bl": 762.7703150912,
+        "y_bl": 766.0091210614,
+        "sam_confidence_score": 0.5064157844,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00562791753448,
+          18.803993453055863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S001",
+        "source_csv_line": 1888,
+        "longitude": 99.020002772,
+        "latitude": 18.7827166676,
+        "x_bl": 51.2313054499,
+        "y_bl": 78.2754119138,
+        "sam_confidence_score": 0.8142767549,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.02000277198758,
+          18.78271666760051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S002",
+        "source_csv_line": 1889,
+        "longitude": 99.0173118634,
+        "latitude": 18.7843672708,
+        "x_bl": 836.6904296875,
+        "y_bl": 208.9814453125,
+        "sam_confidence_score": 0.7811011076,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0173118634156,
+          18.784367270844314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S003",
+        "source_csv_line": 1890,
+        "longitude": 99.013188085,
+        "latitude": 18.7826047366,
+        "x_bl": 1069.3231625835,
+        "y_bl": 711.1285077951,
+        "sam_confidence_score": 0.7799251676,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8169265033,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01318808500541,
+          18.78260473656509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S004",
+        "source_csv_line": 1891,
+        "longitude": 99.0185296334,
+        "latitude": 18.7843271096,
+        "x_bl": 646.8692777213,
+        "y_bl": 87.479993218,
+        "sam_confidence_score": 0.7726151347,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01852963339431,
+          18.78432710961737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S005",
+        "source_csv_line": 1892,
+        "longitude": 99.0201309052,
+        "latitude": 18.7831077774,
+        "x_bl": 113.649642707,
+        "y_bl": 23.7921395544,
+        "sam_confidence_score": 0.7303422093,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.2891971417,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.02013090519357,
+          18.783107777388516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S006",
+        "source_csv_line": 1893,
+        "longitude": 99.0150886279,
+        "latitude": 18.7842138301,
+        "x_bl": 1104.5430769231,
+        "y_bl": 424.4393406593,
+        "sam_confidence_score": 0.7222940922,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0150886279038,
+          18.784213830053965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S007",
+        "source_csv_line": 1894,
+        "longitude": 99.0127058664,
+        "latitude": 18.7832856586,
+        "x_bl": 1233.2098214286,
+        "y_bl": 686.8928571429,
+        "sam_confidence_score": 0.7172453403,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.33125,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01270586636957,
+          18.783285658553538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S008",
+        "source_csv_line": 1895,
+        "longitude": 99.0117435712,
+        "latitude": 18.7832082958,
+        "x_bl": 1325.5866261398,
+        "y_bl": 758.8639817629,
+        "sam_confidence_score": 0.7103264332,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6565349544,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0117435712349,
+          18.783208295765828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S009",
+        "source_csv_line": 1896,
+        "longitude": 99.0172838911,
+        "latitude": 18.7837291013,
+        "x_bl": 721.3805882353,
+        "y_bl": 270.0552941176,
+        "sam_confidence_score": 0.7063952684,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01728389112189,
+          18.783729101271092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S010",
+        "source_csv_line": 1897,
+        "longitude": 99.0187133771,
+        "latitude": 18.7848857535,
+        "x_bl": 728.0401153644,
+        "y_bl": 15.7962768747,
+        "sam_confidence_score": 0.7051128745,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01871337707794,
+          18.784885753453263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S011",
+        "source_csv_line": 1898,
+        "longitude": 99.0184765194,
+        "latitude": 18.7835678734,
+        "x_bl": 504.3088337989,
+        "y_bl": 164.5841480447,
+        "sam_confidence_score": 0.7048645616,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.626222067,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01847651942144,
+          18.783567873391753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S012",
+        "source_csv_line": 1899,
+        "longitude": 99.0140955884,
+        "latitude": 18.7841656816,
+        "x_bl": 1215.2507543754,
+        "y_bl": 509.1004828002,
+        "sam_confidence_score": 0.7014681697,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01409558836758,
+          18.78416568162145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S013",
+        "source_csv_line": 1900,
+        "longitude": 99.0176078257,
+        "latitude": 18.7860157651,
+        "x_bl": 1097.032361516,
+        "y_bl": 32.6644314869,
+        "sam_confidence_score": 0.6978567243,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0176078257205,
+          18.786015765128155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S014",
+        "source_csv_line": 1901,
+        "longitude": 99.0143688066,
+        "latitude": 18.7816881257,
+        "x_bl": 764.8460514641,
+        "y_bl": 706.5070984916,
+        "sam_confidence_score": 0.6971498728,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.2182786158,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01436880659953,
+          18.781688125718873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S015",
+        "source_csv_line": 1902,
+        "longitude": 99.0146475979,
+        "latitude": 18.7848909385,
+        "x_bl": 1269.1155139289,
+        "y_bl": 403.1335254563,
+        "sam_confidence_score": 0.689212501,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01464759790747,
+          18.784890938479595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S016",
+        "source_csv_line": 1903,
+        "longitude": 99.0180359044,
+        "latitude": 18.7836140065,
+        "x_bl": 584.2656628591,
+        "y_bl": 205.9780200762,
+        "sam_confidence_score": 0.6858873963,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01803590441541,
+          18.783614006464536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S017",
+        "source_csv_line": 1904,
+        "longitude": 99.0160335902,
+        "latitude": 18.7841337751,
+        "x_bl": 970.101965602,
+        "y_bl": 349.6981981982,
+        "sam_confidence_score": 0.6764079928,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6277641278,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0160335901564,
+          18.784133775056347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S018",
+        "source_csv_line": 1905,
+        "longitude": 99.0158611626,
+        "latitude": 18.7856229991,
+        "x_bl": 1247.8106910809,
+        "y_bl": 235.8603071471,
+        "sam_confidence_score": 0.6705213189,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01586116262915,
+          18.785622999132812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S019",
+        "source_csv_line": 1906,
+        "longitude": 99.0154248904,
+        "latitude": 18.7838437906,
+        "x_bl": 999.025146689,
+        "y_bl": 428.4375523889,
+        "sam_confidence_score": 0.6599939466,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8637887678,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01542489041289,
+          18.78384379061938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S020",
+        "source_csv_line": 1907,
+        "longitude": 99.0153599662,
+        "latitude": 18.7833421196,
+        "x_bl": 920.4382379655,
+        "y_bl": 478.4809264305,
+        "sam_confidence_score": 0.6427669525,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01535996622417,
+          18.783342119617615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S021",
+        "source_csv_line": 1908,
+        "longitude": 99.0148271514,
+        "latitude": 18.7835252163,
+        "x_bl": 1020.7532751092,
+        "y_bl": 506.1628820961,
+        "sam_confidence_score": 0.6335826516,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01482715137062,
+          18.783525216345318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S022",
+        "source_csv_line": 1909,
+        "longitude": 99.0148052401,
+        "latitude": 18.7852990803,
+        "x_bl": 1317.3023920957,
+        "y_bl": 355.604524181,
+        "sam_confidence_score": 0.6277689338,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01480524008703,
+          18.785299080259012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S023",
+        "source_csv_line": 1910,
+        "longitude": 99.0176467923,
+        "latitude": 18.7846378028,
+        "x_bl": 839.0811881188,
+        "y_bl": 151.0574257426,
+        "sam_confidence_score": 0.6274345517,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01764679227483,
+          18.78463780279232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S024",
+        "source_csv_line": 1911,
+        "longitude": 99.0187479957,
+        "latitude": 18.7817142493,
+        "x_bl": 70.9772861357,
+        "y_bl": 318.0380530973,
+        "sam_confidence_score": 0.6245375872,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01874799569632,
+          18.781714249255433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S025",
+        "source_csv_line": 1912,
+        "longitude": 99.0168866134,
+        "latitude": 18.7818719365,
+        "x_bl": 426.4685534591,
+        "y_bl": 482.2830188679,
+        "sam_confidence_score": 0.5989148021,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9821802935,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01688661340825,
+          18.7818719364821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S026",
+        "source_csv_line": 1913,
+        "longitude": 99.0122313207,
+        "latitude": 18.7832789985,
+        "x_bl": 1284.2618644068,
+        "y_bl": 720.2720338983,
+        "sam_confidence_score": 0.5985864997,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9991525424,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01223132073294,
+          18.78327899845286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S027",
+        "source_csv_line": 1914,
+        "longitude": 99.0157974733,
+        "latitude": 18.7832634286,
+        "x_bl": 847.6845593108,
+        "y_bl": 448.3906560636,
+        "sam_confidence_score": 0.5742954016,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01579747332654,
+          18.783263428605853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S028",
+        "source_csv_line": 1915,
+        "longitude": 99.0143922932,
+        "latitude": 18.785308139,
+        "x_bl": 1364.9657415438,
+        "y_bl": 389.143538595,
+        "sam_confidence_score": 0.5719711781,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01439229316644,
+          18.785308139032146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S029",
+        "source_csv_line": 1916,
+        "longitude": 99.0173277834,
+        "latitude": 18.7830359724,
+        "x_bl": 582.5506245891,
+        "y_bl": 330.4165023011,
+        "sam_confidence_score": 0.5643150806,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01732778338169,
+          18.783035972411643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S030",
+        "source_csv_line": 1917,
+        "longitude": 99.0185328387,
+        "latitude": 18.7824288433,
+        "x_bl": 261.5851360782,
+        "y_bl": 268.9570830426,
+        "sam_confidence_score": 0.5606324077,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01853283871101,
+          18.782428843328884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S031",
+        "source_csv_line": 1918,
+        "longitude": 99.0132037838,
+        "latitude": 18.7815475874,
+        "x_bl": 893.8372956909,
+        "y_bl": 803.0393759287,
+        "sam_confidence_score": 0.5590754151,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.456166419,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01320378375439,
+          18.781547587380444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S032",
+        "source_csv_line": 1919,
+        "longitude": 99.0194454395,
+        "latitude": 18.7829222169,
+        "x_bl": 201.8683148335,
+        "y_bl": 121.7038345106,
+        "sam_confidence_score": 0.5585973859,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.595358224,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.019445439494,
+          18.78292221691061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S033",
+        "source_csv_line": 1920,
+        "longitude": 99.0126990088,
+        "latitude": 18.782306661,
+        "x_bl": 1079.3020424195,
+        "y_bl": 771.0569520817,
+        "sam_confidence_score": 0.5566467643,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8130400628,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01269900882693,
+          18.782306660955886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S034",
+        "source_csv_line": 1921,
+        "longitude": 99.0131908395,
+        "latitude": 18.7849576568,
+        "x_bl": 1439.2373572594,
+        "y_bl": 512.4918433931,
+        "sam_confidence_score": 0.5470186472,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0212071778,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01319083945783,
+          18.78495765679999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S035",
+        "source_csv_line": 1922,
+        "longitude": 99.0193923247,
+        "latitude": 18.7838098433,
+        "x_bl": 399.7797281993,
+        "y_bl": 40.9926387316,
+        "sam_confidence_score": 0.5438065529,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9994337486,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01939232466397,
+          18.783809843344258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S036",
+        "source_csv_line": 1923,
+        "longitude": 99.0154708849,
+        "latitude": 18.7810625972,
+        "x_bl": 493.536294896,
+        "y_bl": 679.747637051,
+        "sam_confidence_score": 0.5436386466,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0154708849471,
+          18.781062597249072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S037",
+        "source_csv_line": 1924,
+        "longitude": 99.019519157,
+        "latitude": 18.7821381695,
+        "x_bl": 16.5235294118,
+        "y_bl": 192.1887700535,
+        "sam_confidence_score": 0.5426073074,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8245989305,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01951915703617,
+          18.782138169500566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S038",
+        "source_csv_line": 1925,
+        "longitude": 99.0158018977,
+        "latitude": 18.7830036593,
+        "x_bl": 800.5904419322,
+        "y_bl": 471.5811921891,
+        "sam_confidence_score": 0.5354123712,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01580189768661,
+          18.783003659282627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S039",
+        "source_csv_line": 1926,
+        "longitude": 99.0184714161,
+        "latitude": 18.782663944,
+        "x_bl": 321.0830583058,
+        "y_bl": 252.2502750275,
+        "sam_confidence_score": 0.5330407023,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01847141611175,
+          18.782663943976484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S040",
+        "source_csv_line": 1927,
+        "longitude": 99.0195030551,
+        "latitude": 18.7834727994,
+        "x_bl": 309.2674609696,
+        "y_bl": 61.0341002465,
+        "sam_confidence_score": 0.5298199058,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01950305513296,
+          18.78347279942277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S041",
+        "source_csv_line": 1928,
+        "longitude": 99.0149923957,
+        "latitude": 18.7823249339,
+        "x_bl": 791.4785575049,
+        "y_bl": 600.2592592593,
+        "sam_confidence_score": 0.5274590254,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.067251462,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0149923956897,
+          18.782324933867745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S042",
+        "source_csv_line": 1929,
+        "longitude": 99.0186851933,
+        "latitude": 18.7846774338,
+        "x_bl": 691.5472103004,
+        "y_bl": 38.0972818312,
+        "sam_confidence_score": 0.5209289789,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01868519329821,
+          18.784677433784942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S043",
+        "source_csv_line": 1930,
+        "longitude": 99.0164294633,
+        "latitude": 18.7835629484,
+        "x_bl": 813.930123562,
+        "y_bl": 365.3538559864,
+        "sam_confidence_score": 0.5199992657,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01642946330712,
+          18.78356294840725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "instance_id": "CM_32_S044",
+        "source_csv_line": 1931,
+        "longitude": 99.013528816,
+        "latitude": 18.7813449765,
+        "x_bl": 817.9125,
+        "y_bl": 798.59375,
+        "sam_confidence_score": 0.506745398,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.4390625,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01352881604751,
+          18.78134497648912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S002",
+        "source_csv_line": 1934,
+        "longitude": 99.0035842512,
+        "latitude": 18.7997859725,
+        "x_bl": 405.8825025432,
+        "y_bl": 455.803560529,
+        "sam_confidence_score": 0.9235980511,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.0935910478,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00358425118678,
+          18.799785972539652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S005",
+        "source_csv_line": 1937,
+        "longitude": 99.0032726331,
+        "latitude": 18.7984163857,
+        "x_bl": 482.1590761223,
+        "y_bl": 532.4915419649,
+        "sam_confidence_score": 0.8586370945,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.148991542,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00327263309079,
+          18.79841638571321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S006",
+        "source_csv_line": 1938,
+        "longitude": 99.0046905452,
+        "latitude": 18.7977487848,
+        "x_bl": 202.0407925408,
+        "y_bl": 549.8902097902,
+        "sam_confidence_score": 0.8533463478,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0046905451607,
+          18.797748784829782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S007",
+        "source_csv_line": 1939,
+        "longitude": 99.0026021576,
+        "latitude": 18.8019179097,
+        "x_bl": 1077.6466849208,
+        "y_bl": 75.4409348719,
+        "sam_confidence_score": 0.850307405,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9872873069,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00260215758938,
+          18.80191790970429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S009",
+        "source_csv_line": 1941,
+        "longitude": 99.0043816176,
+        "latitude": 18.8001167203,
+        "x_bl": 69.0605363218,
+        "y_bl": 399.1339803882,
+        "sam_confidence_score": 0.8279010653,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1220732439,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00438161760495,
+          18.800116720286418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S010",
+        "source_csv_line": 1942,
+        "longitude": 99.0037366186,
+        "latitude": 18.8008144074,
+        "x_bl": 303.1962290503,
+        "y_bl": 313.3589385475,
+        "sam_confidence_score": 0.8236601949,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6997206704,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00373661859685,
+          18.800814407352618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S011",
+        "source_csv_line": 1943,
+        "longitude": 99.0013898498,
+        "latitude": 18.8008397561,
+        "x_bl": 1078.809031556,
+        "y_bl": 412.1033732318,
+        "sam_confidence_score": 0.81719172,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00138984977403,
+          18.800839756065685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S013",
+        "source_csv_line": 1945,
+        "longitude": 99.0024445913,
+        "latitude": 18.8011571473,
+        "x_bl": 880.8095057034,
+        "y_bl": 328.1608365019,
+        "sam_confidence_score": 0.8077595234,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00244459128335,
+          18.801157147347837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S014",
+        "source_csv_line": 1946,
+        "longitude": 99.0024880915,
+        "latitude": 18.8013957339,
+        "x_bl": 924.1858904606,
+        "y_bl": 275.7466449039,
+        "sam_confidence_score": 0.8070453405,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.778835691,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00248809146515,
+          18.801395733870745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S015",
+        "source_csv_line": 1947,
+        "longitude": 99.0002746482,
+        "latitude": 18.8009414276,
+        "x_bl": 1293.8092185592,
+        "y_bl": 429.5946275946,
+        "sam_confidence_score": 0.8040695786,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9679487179,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00027464823847,
+          18.8009414276146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S016",
+        "source_csv_line": 1948,
+        "longitude": 98.9969514164,
+        "latitude": 18.8000562829,
+        "x_bl": 1432.6960199005,
+        "y_bl": 509.2532338308,
+        "sam_confidence_score": 0.793414712,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.99695141636025,
+          18.800056282879606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S018",
+        "source_csv_line": 1950,
+        "longitude": 98.9998136352,
+        "latitude": 18.8002044116,
+        "x_bl": 1195.2700814007,
+        "y_bl": 482.4006297036,
+        "sam_confidence_score": 0.7737025023,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.4341882967,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.99981363522438,
+          18.8002044115992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S019",
+        "source_csv_line": 1951,
+        "longitude": 99.0026132713,
+        "latitude": 18.8020080051,
+        "x_bl": 1125.5550387597,
+        "y_bl": 20.7736434109,
+        "sam_confidence_score": 0.7725348473,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9507751938,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00261327129661,
+          18.802008005101726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S020",
+        "source_csv_line": 1952,
+        "longitude": 99.0044080928,
+        "latitude": 18.7971756527,
+        "x_bl": 284.3917023763,
+        "y_bl": 565.9764316323,
+        "sam_confidence_score": 0.7716373205,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.6287495131,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00440809283438,
+          18.797175652671143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S021",
+        "source_csv_line": 1953,
+        "longitude": 99.0035957384,
+        "latitude": 18.8012625543,
+        "x_bl": 352.1028837489,
+        "y_bl": 201.4360168219,
+        "sam_confidence_score": 0.7640963197,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.802343046,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00359573843215,
+          18.801262554321994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S022",
+        "source_csv_line": 1954,
+        "longitude": 98.9986116008,
+        "latitude": 18.800693319,
+        "x_bl": 1425.3471615721,
+        "y_bl": 470.961790393,
+        "sam_confidence_score": 0.7551664114,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3695414847,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.99861160076092,
+          18.80069331899398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S023",
+        "source_csv_line": 1955,
+        "longitude": 99.0037735839,
+        "latitude": 18.801366606,
+        "x_bl": 204.196969697,
+        "y_bl": 130.8136363636,
+        "sam_confidence_score": 0.7377107739,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00377358391482,
+          18.801366606002706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S024",
+        "source_csv_line": 1956,
+        "longitude": 99.0041187083,
+        "latitude": 18.8009934022,
+        "x_bl": 25.0490813648,
+        "y_bl": 230.3719160105,
+        "sam_confidence_score": 0.7059511542,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0146981627,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0041187082567,
+          18.800993402173265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S027",
+        "source_csv_line": 1959,
+        "longitude": 99.0022506247,
+        "latitude": 18.8011433884,
+        "x_bl": 938.7887746358,
+        "y_bl": 341.1726649529,
+        "sam_confidence_score": 0.6853475571,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00225062474819,
+          18.801143388448278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S028",
+        "source_csv_line": 1960,
+        "longitude": 99.004514561,
+        "latitude": 18.7994566675,
+        "x_bl": 110.4727891156,
+        "y_bl": 464.9069264069,
+        "sam_confidence_score": 0.671374023,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.5788497217,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00451456103593,
+          18.79945666746593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S030",
+        "source_csv_line": 1962,
+        "longitude": 99.0040387915,
+        "latitude": 18.8009763337,
+        "x_bl": 89.5945494994,
+        "y_bl": 244.8959955506,
+        "sam_confidence_score": 0.6691014767,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1724137931,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00403879146636,
+          18.800976333699893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S031",
+        "source_csv_line": 1963,
+        "longitude": 99.004274701,
+        "latitude": 18.7994074126,
+        "x_bl": 200.9016212233,
+        "y_bl": 472.9215180545,
+        "sam_confidence_score": 0.6511748433,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1893883567,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00427470102099,
+          18.79940741264375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S032",
+        "source_csv_line": 1964,
+        "longitude": 99.002365935,
+        "latitude": 18.8002830675,
+        "x_bl": 767.8616786306,
+        "y_bl": 439.3790723357,
+        "sam_confidence_score": 0.6478400826,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": false,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00236593503257,
+          18.800283067474293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S033",
+        "source_csv_line": 1965,
+        "longitude": 99.0040690264,
+        "latitude": 18.8011347162,
+        "x_bl": 19.1767527675,
+        "y_bl": 185.0763837638,
+        "sam_confidence_score": 0.6468315721,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00406902643546,
+          18.801134716203492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S035",
+        "source_csv_line": 1967,
+        "longitude": 99.0035867322,
+        "latitude": 18.7978320337,
+        "x_bl": 422.6014656144,
+        "y_bl": 550.0422773393,
+        "sam_confidence_score": 0.6337710023,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00358673222004,
+          18.797832033679065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S037",
+        "source_csv_line": 1969,
+        "longitude": 99.0021150481,
+        "latitude": 18.8019716169,
+        "x_bl": 1310.3582510578,
+        "y_bl": 136.398448519,
+        "sam_confidence_score": 0.6273731589,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00211504814715,
+          18.801971616881158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S039",
+        "source_csv_line": 1971,
+        "longitude": 99.0007067142,
+        "latitude": 18.7988385932,
+        "x_bl": 907.0624309392,
+        "y_bl": 529.3773480663,
+        "sam_confidence_score": 0.624137044,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1668508287,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00070671419232,
+          18.798838593183937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S041",
+        "source_csv_line": 1973,
+        "longitude": 99.002503913,
+        "latitude": 18.8020579813,
+        "x_bl": 1213.6684397163,
+        "y_bl": 16.0523049645,
+        "sam_confidence_score": 0.6210657358,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8554964539,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00250391301867,
+          18.802057981280115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S042",
+        "source_csv_line": 1974,
+        "longitude": 99.0024473223,
+        "latitude": 18.8018195761,
+        "x_bl": 1096.7446585672,
+        "y_bl": 148.2637201508,
+        "sam_confidence_score": 0.6126126647,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 1.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00244732229406,
+          18.80181957607285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S043",
+        "source_csv_line": 1975,
+        "longitude": 99.0044832901,
+        "latitude": 18.7991224808,
+        "x_bl": 157.6273176761,
+        "y_bl": 489.5512978986,
+        "sam_confidence_score": 0.6096231937,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.1903584672,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00448329006025,
+          18.79912248080383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S045",
+        "source_csv_line": 1977,
+        "longitude": 98.9981251726,
+        "latitude": 18.7967787451,
+        "x_bl": 992.1219588272,
+        "y_bl": 574.2167810356,
+        "sam_confidence_score": 0.5940851569,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3081721772,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.99812517258347,
+          18.79677874505954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S046",
+        "source_csv_line": 1978,
+        "longitude": 99.0027668668,
+        "latitude": 18.8019078386,
+        "x_bl": 986.1255974509,
+        "y_bl": 45.6688794477,
+        "sam_confidence_score": 0.5910072327,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8890069039,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00276686678298,
+          18.801907838623503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S048",
+        "source_csv_line": 1980,
+        "longitude": 99.0026260658,
+        "latitude": 18.7981940178,
+        "x_bl": 592.4914529915,
+        "y_bl": 542.0555555556,
+        "sam_confidence_score": 0.5783057213,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.311965812,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00262606576828,
+          18.79819401779052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S049",
+        "source_csv_line": 1981,
+        "longitude": 99.0055592321,
+        "latitude": 18.7964371295,
+        "x_bl": 102.4592356688,
+        "y_bl": 582.1445859873,
+        "sam_confidence_score": 0.5770205855,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00555923208303,
+          18.796437129540806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S052",
+        "source_csv_line": 1984,
+        "longitude": 99.0021776842,
+        "latitude": 18.8021829552,
+        "x_bl": 1452.4577205882,
+        "y_bl": 17.265625,
+        "sam_confidence_score": 0.5610852242,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.3722426471,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00217768423104,
+          18.802182955209975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S053",
+        "source_csv_line": 1985,
+        "longitude": 99.0016612213,
+        "latitude": 18.8014805582,
+        "x_bl": 1203.0174953959,
+        "y_bl": 315.3653863019,
+        "sam_confidence_score": 0.5586403012,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.9913180742,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00166122127109,
+          18.80148055821026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S056",
+        "source_csv_line": 1988,
+        "longitude": 99.0011629653,
+        "latitude": 18.7990837676,
+        "x_bl": 868.2781316348,
+        "y_bl": 519.1125265393,
+        "sam_confidence_score": 0.5496329665,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00116296534573,
+          18.799083767647936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S061",
+        "source_csv_line": 1993,
+        "longitude": 99.0039198422,
+        "latitude": 18.8005632402,
+        "x_bl": 232.6253501401,
+        "y_bl": 351.1645658263,
+        "sam_confidence_score": 0.5314709544,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.8928571429,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00391984220977,
+          18.80056324024792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S063",
+        "source_csv_line": 1995,
+        "longitude": 99.0007924725,
+        "latitude": 18.8016498009,
+        "x_bl": 1452.9074074074,
+        "y_bl": 333.9523246651,
+        "sam_confidence_score": 0.525378406,
+        "legacy_flood_affected": false,
+        "dino_water_contact_fraction": 0.0031520883,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00079247250139,
+          18.801649800857327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "instance_id": "CM_34_S065",
+        "source_csv_line": 1997,
+        "longitude": 99.0021326907,
+        "latitude": 18.8017374432,
+        "x_bl": 1174.8206153429,
+        "y_bl": 217.1646787747,
+        "sam_confidence_score": 0.5046028495,
+        "legacy_flood_affected": true,
+        "dino_water_contact_fraction": 0.5906072106,
+        "outside_control_hull": true,
+        "position_status": "approximate",
+        "georeferencing_method": "single_image_homography_separate_reference_set",
+        "water_model_source": "legacy_TEST_9_not_Plan_A_or_B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00213269070842,
+          18.801737443228017
+        ]
+      }
+    }
+  ]
+}

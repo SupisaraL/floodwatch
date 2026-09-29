@@ -1,0 +1,1873 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_2",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 15.404319642864918,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0060796,
+          18.7542456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_2",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 15.36404183708226,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0059058,
+          18.753334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_2",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 6.600657000248969,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0049115,
+          18.7540004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_2",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 7.602535988082226,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0046759,
+          18.7543445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_2",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 12.56664875801643,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0053074,
+          18.7547245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_2",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 14.594024155572669,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0045749,
+          18.7548299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_2",
+        "ref_id": 7,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 13.589293655400027,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0053557,
+          18.7549472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_5",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 8.13956561366104,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0035087,
+          18.7537886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_5",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.8442766748252213,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0035844,
+          18.7541131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_5",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 4.27877088303934,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0040906,
+          18.7537578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_5",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.491236384217046,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.003415,
+          18.7528428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_5",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.862020989593796,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0020657,
+          18.7537519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_5",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.1958553370453417,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0031403,
+          18.7545215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 6.300553414623709,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0017772,
+          18.7576061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.638944243749232,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.003212,
+          18.7569147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 8.762552654119357,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0029124,
+          18.7579501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.7596011960092417,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0043381,
+          18.7571753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.4108029135990716,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0041934,
+          18.7577001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 9.869294660889237,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0035109,
+          18.7594173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 7,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 5.121647527881388,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0039962,
+          18.7604308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_7",
+        "ref_id": 8,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 5.636721312246284,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0049632,
+          18.7588872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_11",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.0192869510029469,
+        "georeferencing_method": "similarity_exact_2_controls_limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0338598,
+          18.7552707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_11",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.0294650591525039,
+        "georeferencing_method": "similarity_exact_2_controls_limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0337462,
+          18.7555691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_12",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.1425268787856175,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0276653,
+          18.7515199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_12",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.499239279145329,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0270431,
+          18.751555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_12",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.4310390033689649,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0288921,
+          18.7525463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_12",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.5861675439947579,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.028449,
+          18.7527577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_12",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.6247634325263487,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0283465,
+          18.7522144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_15",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.4540402589527584,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0248445,
+          18.773734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_15",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 5.132966211129342,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0252547,
+          18.7738999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_15",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.251266038011208,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0244181,
+          18.7733943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_15",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.7208886408973942,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0240894,
+          18.7748516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_15",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 4.24000516691857,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.023851,
+          18.7743664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_15",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 10.872706039558016,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0249649,
+          18.7750652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_15",
+        "ref_id": 7,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 7.5591297097180625,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0258565,
+          18.7748126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_16",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.6472552644108766,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0249987,
+          18.7742083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_16",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.6480599587498684,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0249652,
+          18.7738047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_16",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.2892700181331365,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.024214,
+          18.7737834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_16",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.162882700261964,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0238369,
+          18.7736937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_16",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.7544844928314715,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0243348,
+          18.7752821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_16",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.1420630685244686,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0245544,
+          18.7743648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_17",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.4027853583181735,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0251539,
+          18.7736933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_17",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.5508848000950799,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.025451,
+          18.7735821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_17",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.028862149687367,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0250943,
+          18.7732518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_17",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.415630515241686,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.025421,
+          18.7729341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_17",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.164513735052658,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0259028,
+          18.7732049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_17",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.8311585551068956,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0261971,
+          18.773183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_20",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.459126629465022,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9861901,
+          18.8437259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_20",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 5.639300764143725,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9851094,
+          18.8432819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_20",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.3303787422991986,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9844254,
+          18.842829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_20",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.3415047181684951,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9848549,
+          18.841276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_20",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.3458203239650486,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9875019,
+          18.8449696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_20",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.8233317582448217,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9892193,
+          18.8441125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_23",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.194335340337332,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.991569,
+          18.8129846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_23",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.0653259927949845,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9924079,
+          18.8135681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_23",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 12.977486968482012,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9936625,
+          18.8137303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_23",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 8.990940842860585,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9934875,
+          18.8143449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_23",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.6994214684875868,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9921599,
+          18.8142655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_23",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.575976347157289,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9935166,
+          18.8120145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_25",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 201.30886948544716,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0182238,
+          18.7484874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_25",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 112.94834707712144,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0181565,
+          18.7479018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_25",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 26.89768828515145,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0101085,
+          18.7485579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_25",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 113.1313558428509,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0172746,
+          18.7477221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_25",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 107.835749556034,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0187518,
+          18.746313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_25",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 100.22139759656235,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0190363,
+          18.7449212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_26",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.0048592816452181,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0187003,
+          18.7470516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_26",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.0590533681288053,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0195309,
+          18.7465211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_26",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.025727085368816,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0197072,
+          18.7471251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_26",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.0473990466069645,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0194174,
+          18.7474349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_29",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 4.634685004975548,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0055907,
+          18.8094678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_29",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 6.427790899533396,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0056295,
+          18.8092226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_29",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.7069029321361278,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0049176,
+          18.808794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_29",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.147720607546812,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0044507,
+          18.8092823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_29",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.0583287674730038,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0043293,
+          18.8095872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_30",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.9415573173096847,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0045908,
+          18.81103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_30",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.7715382728373927,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0040002,
+          18.8112687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_30",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.7098583555858718,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.004133,
+          18.8107163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_30",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.4657479689995716,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0048849,
+          18.8103804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_30",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 0.6283166867802096,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0056388,
+          18.8111759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 33.65782118552848,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0163982,
+          18.7834743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 22.46485430875535,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.014775,
+          18.785262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 4.986856881076106,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.019504,
+          18.783514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 15.956697449728798,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.019855,
+          18.781564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 2.1449564424726586,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.013252,
+          18.782522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_32",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 1.6605148968590384,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.012583,
+          18.783347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 1,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 11.434279366220508,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.002386,
+          18.801351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 2,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 3.791408388164181,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.000181,
+          18.800961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 3,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 19.854551261165035,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.002312,
+          18.800079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 4,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 31.77970477222236,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.003795,
+          18.799572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 5,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 15.708017451908638,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.004711,
+          18.797303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_34",
+        "ref_id": 6,
+        "result_source": "current_attached_reference",
+        "control_status": "reference_used",
+        "reference_error_m": 11.464266428455373,
+        "georeferencing_method": "homography_all_references"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00469,
+          18.80114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 1,
+        "longitude": 99.00105833,
+        "latitude": 18.80806111,
+        "role": "fit",
+        "x_bl": 1389.5,
+        "y_bl": 530.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 2.6833096709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00105833,
+          18.80806111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 2,
+        "longitude": 99.00138611,
+        "latitude": 18.81067222,
+        "role": "fit",
+        "x_bl": 1380.5,
+        "y_bl": 75.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 1.735678952
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00138611,
+          18.81067222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 3,
+        "longitude": 99.00471944,
+        "latitude": 18.80765833,
+        "role": "fit",
+        "x_bl": 665.5,
+        "y_bl": 630.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 3.5414424716
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00471944,
+          18.80765833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 4,
+        "longitude": 99.00461111,
+        "latitude": 18.81105,
+        "role": "fit",
+        "x_bl": 168.5,
+        "y_bl": 279.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 2.1488212137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00461111,
+          18.81105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 5,
+        "longitude": 99.00371944,
+        "latitude": 18.81091667,
+        "role": "check",
+        "x_bl": 455.5,
+        "y_bl": 235.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 5.9621915446
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00371944,
+          18.81091667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 6,
+        "longitude": 99.00518889,
+        "latitude": 18.8106,
+        "role": "fit",
+        "x_bl": 145.5,
+        "y_bl": 376.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 6.5409404997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00518889,
+          18.8106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 7,
+        "longitude": 99.00243889,
+        "latitude": 18.80977778,
+        "role": "check",
+        "x_bl": 986.5,
+        "y_bl": 375.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 3.5074081702
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00243889,
+          18.80977778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 8,
+        "longitude": 99.00152778,
+        "latitude": 18.80971944,
+        "role": "fit",
+        "x_bl": 1280.5,
+        "y_bl": 311.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 11.2225726621
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00152778,
+          18.80971944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 9,
+        "longitude": 99.00428889,
+        "latitude": 18.80895833,
+        "role": "fit",
+        "x_bl": 615.5,
+        "y_bl": 541.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 7.2790762107
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00428889,
+          18.80895833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image_id": "CM_31",
+        "ref_id": 10,
+        "longitude": 99.00258889,
+        "latitude": 18.81087778,
+        "role": "fit",
+        "x_bl": 838.5,
+        "y_bl": 166.5,
+        "point_source": "user_center",
+        "result_source": "legacy_gis_zip_CM31",
+        "control_status": "reference_used",
+        "reference_error_m": 8.3305185842
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00258889,
+          18.81087778
+        ]
+      }
+    }
+  ]
+}

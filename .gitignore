@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+runtime/uploads/*
+runtime/results/*
+runtime/maps/*
+!runtime/uploads/.gitkeep
+!runtime/results/.gitkeep
+!runtime/maps/.gitkeep
+!runtime/maps/zone_images/.gitkeep
+
+# Local models are mounted into Docker and should not be committed to Git.
+model-cache/

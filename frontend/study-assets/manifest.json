@@ -1,0 +1,657 @@
+{
+  "run_name": "cm_flood_final_void_v2",
+  "dataset": {
+    "images": 35,
+    "train": 24,
+    "validation": 5,
+    "test": 6
+  },
+  "water_metrics": {
+    "Water IoU": 0.7332395170009088,
+    "Water Dice": 0.8460913910728985,
+    "Water Precision": 0.8644032118217132,
+    "Water Recall": 0.8285393235100249,
+    "Mean Water IoU": 0.6592764825078222,
+    "95% bootstrap CI lower": 0.5555841440563455,
+    "95% bootstrap CI upper": 0.742834937217738,
+    "Valid GT fraction": 0.8710194146803242
+  },
+  "reference_results": [
+    {
+      "points": 1,
+      "threshold": 0.6100000000000001,
+      "water_iou": 0.5529191986542413,
+      "precision": 0.7460589310878792,
+      "recall": 0.681103409438888
+    },
+    {
+      "points": 5,
+      "threshold": 0.6600000000000001,
+      "water_iou": 0.5632695348570274,
+      "precision": 0.6236977950190526,
+      "recall": 0.8532362161404674
+    },
+    {
+      "points": 10,
+      "threshold": 0.6699999999999999,
+      "water_iou": 0.5838670753039584,
+      "precision": 0.6557417224131389,
+      "recall": 0.8419436500563137
+    }
+  ],
+  "sam_validation": {
+    "threshold": 0.5,
+    "precision": 0.6666666666666666,
+    "recall": 0.5985401459854015,
+    "instance_f1": 0.6307692307692307,
+    "validation_images": 5
+  },
+  "cm16_report": {
+    "image_id": "CM_16",
+    "water_percent": 26.14,
+    "building_masks": 75,
+    "class_area_percent": {
+      "Background": 4.69,
+      "Water": 27.82,
+      "Built area": 48.37,
+      "Green area": 18.73,
+      "Vehicle": 0.38
+    }
+  },
+  "assets": {
+    "geocalib_cm16.png": "/assets/study-assets/geocalib_cm16.png",
+    "reference_points_cm7.png": "/assets/study-assets/reference_points_cm7.png",
+    "reference_1_5_10.png": "/assets/study-assets/reference_1_5_10.png",
+    "supervised_test_examples.png": "/assets/study-assets/supervised_test_examples.png",
+    "sam_cm16.png": "/assets/study-assets/sam_cm16.png",
+    "dino_sam_cm16.png": "/assets/study-assets/dino_sam_cm16.png",
+    "training_curves.png": "/assets/study-assets/training_curves.png",
+    "semantic_metrics.png": "/assets/study-assets/semantic_metrics.png",
+    "reference_supervised.png": "/assets/study-assets/reference_supervised.png",
+    "geocalib_bands.png": "/assets/study-assets/geocalib_bands.png",
+    "sam_instances.png": "/assets/study-assets/sam_instances.png",
+    "municipality_boundary": "/assets/study-assets/municipality_boundary.geojson",
+    "flood_depth": "/assets/study-assets/flood_depth_idw.png",
+    "reference_coverage": "/assets/study-assets/reference_coverage.geojson",
+    "building_points": "/assets/study-assets/building_points_approximate.geojson",
+    "cm31_reference": "/assets/study-assets/cm31_reference_points.geojson",
+    "cm32_reference": "/assets/study-assets/cm32_reference_points.geojson",
+    "cm34_reference": "/assets/study-assets/cm34_reference_points.geojson",
+    "georeferenced_buildings": "/assets/study-assets/georeferenced_building_points.geojson",
+    "georeferenced_references": "/assets/study-assets/georeferenced_reference_points.geojson",
+    "georeferenced_map_summary": "/assets/study-assets/georeferenced_map_summary.json",
+    "cm_gallery": [
+      {
+        "id": "CM_1",
+        "url": "/assets/study-assets/cm-gallery/CM_1.png?v=crop-2",
+        "statistics": {
+          "water_percent": 3.87,
+          "building_objects": 32,
+          "water_adjacent_buildings": 14,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 3.87,
+            "พื้นที่สิ่งปลูกสร้าง": 34.02,
+            "พื้นที่สีเขียว": 60.59,
+            "พื้นที่อื่น ๆ": 1.52
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_1.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_2",
+        "url": "/assets/study-assets/cm-gallery/CM_2.png?v=crop-2",
+        "statistics": {
+          "water_percent": 15.78,
+          "building_objects": 49,
+          "water_adjacent_buildings": 29,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 15.78,
+            "พื้นที่สิ่งปลูกสร้าง": 41.61,
+            "พื้นที่สีเขียว": 33.31,
+            "พื้นที่อื่น ๆ": 9.31
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_2.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_3",
+        "url": "/assets/study-assets/cm-gallery/CM_3.png?v=crop-2",
+        "statistics": {
+          "water_percent": 15.17,
+          "building_objects": 56,
+          "water_adjacent_buildings": 29,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 15.17,
+            "พื้นที่สิ่งปลูกสร้าง": 45.64,
+            "พื้นที่สีเขียว": 30.51,
+            "พื้นที่อื่น ๆ": 8.68
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_3.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_4",
+        "url": "/assets/study-assets/cm-gallery/CM_4.png?v=crop-2",
+        "statistics": {
+          "water_percent": 14.39,
+          "building_objects": 49,
+          "water_adjacent_buildings": 23,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 14.39,
+            "พื้นที่สิ่งปลูกสร้าง": 37.3,
+            "พื้นที่สีเขียว": 40.02,
+            "พื้นที่อื่น ๆ": 8.29
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_4.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_5",
+        "url": "/assets/study-assets/cm-gallery/CM_5.png?v=crop-2",
+        "statistics": {
+          "water_percent": 18.91,
+          "building_objects": 52,
+          "water_adjacent_buildings": 35,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 18.91,
+            "พื้นที่สิ่งปลูกสร้าง": 40.16,
+            "พื้นที่สีเขียว": 30.25,
+            "พื้นที่อื่น ๆ": 10.68
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_5.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_6",
+        "url": "/assets/study-assets/cm-gallery/CM_6.png?v=crop-2",
+        "statistics": {
+          "water_percent": 21.94,
+          "building_objects": 51,
+          "water_adjacent_buildings": 33,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 21.94,
+            "พื้นที่สิ่งปลูกสร้าง": 33.26,
+            "พื้นที่สีเขียว": 33.22,
+            "พื้นที่อื่น ๆ": 11.58
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_6.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_7",
+        "url": "/assets/study-assets/cm-gallery/CM_7.png?v=crop-2",
+        "statistics": {
+          "water_percent": 19.5,
+          "building_objects": 53,
+          "water_adjacent_buildings": 34,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 19.5,
+            "พื้นที่สิ่งปลูกสร้าง": 40.61,
+            "พื้นที่สีเขียว": 30.09,
+            "พื้นที่อื่น ๆ": 9.79
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_7.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_8",
+        "url": "/assets/study-assets/cm-gallery/CM_8.png?v=crop-2",
+        "statistics": {
+          "water_percent": 24.31,
+          "building_objects": 32,
+          "water_adjacent_buildings": 22,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 24.31,
+            "พื้นที่สิ่งปลูกสร้าง": 43.17,
+            "พื้นที่สีเขียว": 22.06,
+            "พื้นที่อื่น ๆ": 10.46
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_8.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_9",
+        "url": "/assets/study-assets/cm-gallery/CM_9.png?v=crop-2",
+        "statistics": {
+          "water_percent": 32.8,
+          "building_objects": 32,
+          "water_adjacent_buildings": 23,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 32.8,
+            "พื้นที่สิ่งปลูกสร้าง": 30.62,
+            "พื้นที่สีเขียว": 31.25,
+            "พื้นที่อื่น ๆ": 5.33
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_9.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_10",
+        "url": "/assets/study-assets/cm-gallery/CM_10.png?v=crop-2",
+        "statistics": {
+          "water_percent": 24.86,
+          "building_objects": 37,
+          "water_adjacent_buildings": 16,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 24.86,
+            "พื้นที่สิ่งปลูกสร้าง": 14.87,
+            "พื้นที่สีเขียว": 58.13,
+            "พื้นที่อื่น ๆ": 2.14
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_10.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_11",
+        "url": "/assets/study-assets/cm-gallery/CM_11.png?v=crop-2",
+        "statistics": {
+          "water_percent": 28.42,
+          "building_objects": 6,
+          "water_adjacent_buildings": 5,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 28.42,
+            "พื้นที่สิ่งปลูกสร้าง": 25.91,
+            "พื้นที่สีเขียว": 40.48,
+            "พื้นที่อื่น ๆ": 5.18
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_11.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_12",
+        "url": "/assets/study-assets/cm-gallery/CM_12.png?v=crop-2",
+        "statistics": {
+          "water_percent": 29.21,
+          "building_objects": 20,
+          "water_adjacent_buildings": 17,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 29.21,
+            "พื้นที่สิ่งปลูกสร้าง": 41.83,
+            "พื้นที่สีเขียว": 23.42,
+            "พื้นที่อื่น ๆ": 5.53
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_12.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_13",
+        "url": "/assets/study-assets/cm-gallery/CM_13.png?v=crop-2",
+        "statistics": {
+          "water_percent": 25.4,
+          "building_objects": 4,
+          "water_adjacent_buildings": 2,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 25.4,
+            "พื้นที่สิ่งปลูกสร้าง": 24.92,
+            "พื้นที่สีเขียว": 44.31,
+            "พื้นที่อื่น ๆ": 5.36
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_13.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_14",
+        "url": "/assets/study-assets/cm-gallery/CM_14.png?v=crop-2",
+        "statistics": {
+          "water_percent": 24.41,
+          "building_objects": 81,
+          "water_adjacent_buildings": 44,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 24.41,
+            "พื้นที่สิ่งปลูกสร้าง": 31.52,
+            "พื้นที่สีเขียว": 34.78,
+            "พื้นที่อื่น ๆ": 9.29
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_14.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_15",
+        "url": "/assets/study-assets/cm-gallery/CM_15.png?v=crop-2",
+        "statistics": {
+          "water_percent": 17.59,
+          "building_objects": 69,
+          "water_adjacent_buildings": 33,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 17.59,
+            "พื้นที่สิ่งปลูกสร้าง": 42.89,
+            "พื้นที่สีเขียว": 31.68,
+            "พื้นที่อื่น ๆ": 7.85
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_15.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_16",
+        "url": "/assets/study-assets/cm-gallery/CM_16.png?v=crop-2",
+        "statistics": {
+          "water_percent": 26.14,
+          "building_objects": 75,
+          "water_adjacent_buildings": 46,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 26.14,
+            "พื้นที่สิ่งปลูกสร้าง": 48.37,
+            "พื้นที่สีเขียว": 18.73,
+            "พื้นที่อื่น ๆ": 6.76
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_16.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_17",
+        "url": "/assets/study-assets/cm-gallery/CM_17.png?v=crop-2",
+        "statistics": {
+          "water_percent": 36.65,
+          "building_objects": 35,
+          "water_adjacent_buildings": 24,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 36.65,
+            "พื้นที่สิ่งปลูกสร้าง": 32.7,
+            "พื้นที่สีเขียว": 23.89,
+            "พื้นที่อื่น ๆ": 6.76
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_17.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_18",
+        "url": "/assets/study-assets/cm-gallery/CM_18.png?v=crop-2",
+        "statistics": {
+          "water_percent": 17.94,
+          "building_objects": 29,
+          "water_adjacent_buildings": 18,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 17.94,
+            "พื้นที่สิ่งปลูกสร้าง": 26.62,
+            "พื้นที่สีเขียว": 50.81,
+            "พื้นที่อื่น ๆ": 4.62
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_18.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_19",
+        "url": "/assets/study-assets/cm-gallery/CM_19.png?v=crop-2",
+        "statistics": {
+          "water_percent": 24.15,
+          "building_objects": 46,
+          "water_adjacent_buildings": 19,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 24.15,
+            "พื้นที่สิ่งปลูกสร้าง": 31.89,
+            "พื้นที่สีเขียว": 34.63,
+            "พื้นที่อื่น ๆ": 9.34
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_19.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_20",
+        "url": "/assets/study-assets/cm-gallery/CM_20.png?v=crop-2",
+        "statistics": {
+          "water_percent": 15.99,
+          "building_objects": 42,
+          "water_adjacent_buildings": 16,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 15.99,
+            "พื้นที่สิ่งปลูกสร้าง": 32.52,
+            "พื้นที่สีเขียว": 44.68,
+            "พื้นที่อื่น ๆ": 6.82
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_20.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_21",
+        "url": "/assets/study-assets/cm-gallery/CM_21.png?v=crop-2",
+        "statistics": {
+          "water_percent": 17.46,
+          "building_objects": 136,
+          "water_adjacent_buildings": 64,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 17.46,
+            "พื้นที่สิ่งปลูกสร้าง": 34.67,
+            "พื้นที่สีเขียว": 34.1,
+            "พื้นที่อื่น ๆ": 13.77
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_21.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_22",
+        "url": "/assets/study-assets/cm-gallery/CM_22.png?v=crop-2",
+        "statistics": {
+          "water_percent": 16.76,
+          "building_objects": 43,
+          "water_adjacent_buildings": 17,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 16.76,
+            "พื้นที่สิ่งปลูกสร้าง": 39.96,
+            "พื้นที่สีเขียว": 35.87,
+            "พื้นที่อื่น ๆ": 7.41
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_22.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_23",
+        "url": "/assets/study-assets/cm-gallery/CM_23.png?v=crop-2",
+        "statistics": {
+          "water_percent": 37.27,
+          "building_objects": 18,
+          "water_adjacent_buildings": 13,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 37.27,
+            "พื้นที่สิ่งปลูกสร้าง": 19.46,
+            "พื้นที่สีเขียว": 35.45,
+            "พื้นที่อื่น ๆ": 7.81
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_23.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_24",
+        "url": "/assets/study-assets/cm-gallery/CM_24.png?v=crop-2",
+        "statistics": {
+          "water_percent": 31.59,
+          "building_objects": 16,
+          "water_adjacent_buildings": 6,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 31.59,
+            "พื้นที่สิ่งปลูกสร้าง": 18.83,
+            "พื้นที่สีเขียว": 46.07,
+            "พื้นที่อื่น ๆ": 3.51
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_24.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_25",
+        "url": "/assets/study-assets/cm-gallery/CM_25.png?v=crop-2",
+        "statistics": {
+          "water_percent": 22.99,
+          "building_objects": 31,
+          "water_adjacent_buildings": 11,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 22.99,
+            "พื้นที่สิ่งปลูกสร้าง": 26.12,
+            "พื้นที่สีเขียว": 41.07,
+            "พื้นที่อื่น ๆ": 9.82
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_25.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_26",
+        "url": "/assets/study-assets/cm-gallery/CM_26.png?v=crop-2",
+        "statistics": {
+          "water_percent": 43.26,
+          "building_objects": 15,
+          "water_adjacent_buildings": 8,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 43.26,
+            "พื้นที่สิ่งปลูกสร้าง": 24.92,
+            "พื้นที่สีเขียว": 22.95,
+            "พื้นที่อื่น ๆ": 8.87
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_26.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_27",
+        "url": "/assets/study-assets/cm-gallery/CM_27.png?v=crop-2",
+        "statistics": {
+          "water_percent": 38.15,
+          "building_objects": 54,
+          "water_adjacent_buildings": 28,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 38.15,
+            "พื้นที่สิ่งปลูกสร้าง": 18.58,
+            "พื้นที่สีเขียว": 30.0,
+            "พื้นที่อื่น ๆ": 13.28
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_27.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_28",
+        "url": "/assets/study-assets/cm-gallery/CM_28.png?v=crop-2",
+        "statistics": {
+          "water_percent": 38.15,
+          "building_objects": 54,
+          "water_adjacent_buildings": 28,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 38.15,
+            "พื้นที่สิ่งปลูกสร้าง": 18.58,
+            "พื้นที่สีเขียว": 30.0,
+            "พื้นที่อื่น ๆ": 13.28
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_28.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_29",
+        "url": "/assets/study-assets/cm-gallery/CM_29.png?v=crop-2",
+        "statistics": {
+          "water_percent": 18.48,
+          "building_objects": 10,
+          "water_adjacent_buildings": 6,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 18.48,
+            "พื้นที่สิ่งปลูกสร้าง": 43.58,
+            "พื้นที่สีเขียว": 24.0,
+            "พื้นที่อื่น ๆ": 13.94
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_29.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_30",
+        "url": "/assets/study-assets/cm-gallery/CM_30.png?v=crop-2",
+        "statistics": {
+          "water_percent": 26.16,
+          "building_objects": 29,
+          "water_adjacent_buildings": 14,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 26.16,
+            "พื้นที่สิ่งปลูกสร้าง": 35.7,
+            "พื้นที่สีเขียว": 28.76,
+            "พื้นที่อื่น ๆ": 9.38
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_30.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_31",
+        "url": "/assets/study-assets/cm-gallery/CM_31.png?v=crop-2",
+        "statistics": {
+          "water_percent": 21.77,
+          "building_objects": 64,
+          "water_adjacent_buildings": 44,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 21.77,
+            "พื้นที่สิ่งปลูกสร้าง": 42.59,
+            "พื้นที่สีเขียว": 23.95,
+            "พื้นที่อื่น ๆ": 11.69
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_31.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_32",
+        "url": "/assets/study-assets/cm-gallery/CM_32.png?v=crop-2",
+        "statistics": {
+          "water_percent": 22.41,
+          "building_objects": 45,
+          "water_adjacent_buildings": 35,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 22.41,
+            "พื้นที่สิ่งปลูกสร้าง": 32.16,
+            "พื้นที่สีเขียว": 36.94,
+            "พื้นที่อื่น ๆ": 8.49
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_32.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_33",
+        "url": "/assets/study-assets/cm-gallery/CM_33.png?v=crop-2",
+        "statistics": {
+          "water_percent": 14.79,
+          "building_objects": 5,
+          "water_adjacent_buildings": 1,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 14.79,
+            "พื้นที่สิ่งปลูกสร้าง": 46.46,
+            "พื้นที่สีเขียว": 32.81,
+            "พื้นที่อื่น ๆ": 5.94
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_33.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_34",
+        "url": "/assets/study-assets/cm-gallery/CM_34.png?v=crop-2",
+        "statistics": {
+          "water_percent": 20.8,
+          "building_objects": 39,
+          "water_adjacent_buildings": 19,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 20.8,
+            "พื้นที่สิ่งปลูกสร้าง": 36.3,
+            "พื้นที่สีเขียว": 34.9,
+            "พื้นที่อื่น ๆ": 8.0
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_34.png?v=class-probability-strip-6"
+      },
+      {
+        "id": "CM_35",
+        "url": "/assets/study-assets/cm-gallery/CM_35.png?v=crop-2",
+        "statistics": {
+          "water_percent": 9.78,
+          "building_objects": 10,
+          "water_adjacent_buildings": 5,
+          "class_area_percent": {
+            "พื้นที่น้ำ": 9.78,
+            "พื้นที่สิ่งปลูกสร้าง": 57.5,
+            "พื้นที่สีเขียว": 27.17,
+            "พื้นที่อื่น ๆ": 5.54
+          }
+        },
+        "class_probability_url": "/assets/study-assets/class-probability-gallery/CM_35.png?v=class-probability-strip-6"
+      }
+    ]
+  },
+  "flood_depth_bounds": [
+    [
+      18.628809071564902,
+      98.96839199669182
+    ],
+    [
+      18.872503290516548,
+      99.07486010871267
+    ]
+  ],
+  "map_notice": "แผนที่แสดงจุดอาคารจาก SAM และจุดอ้างอิงของการตรึงภาพจาก 17 กลุ่ม CM สีเดียวกันหมายถึงกลุ่มภาพเดียวกัน; ทุกตำแหน่งเป็นข้อมูลโดยประมาณจากภาพโดรน"
+}
