@@ -11,6 +11,12 @@ let cmGallery = [];
 let cmGalleryIndex = 0;
 
 const $ = (selector) => document.querySelector(selector);
+function appUrl(path) {
+  const clean = String(path || "").replace(/^\/+/, "");
+  return new URL(clean, document.baseURI).toString();
+}
+
+window.appUrl = appUrl;
 const colours = { Background: "#cfd6dc", Water: "#001d4f", "Built area": "#a62035", "Green area": "#26734d", Vehicle: "#d59a22" };
 const galleryAreaColours = { "พื้นที่น้ำ": "#146bb0", "พื้นที่สิ่งปลูกสร้าง": "#a62035", "พื้นที่สีเขียว": "#26734d", "พื้นที่อื่น ๆ": "#9aa9b8" };
 const captions = { water: "พื้นที่น้ำที่ DINOv3 ทำนาย", buildings: "จำนวนอาคารที่ SAM3 ตรวจจับได้ — กรอบสีเหลืองแสดงขอบเขตอาคาร", vehicles: "จำนวนยานพาหนะที่ SAM3 ตรวจจับได้ — กรอบสีขาวแสดงขอบเขตยานพาหนะ", trees: "พื้นที่ต้นไม้และพืชพรรณสีเขียวที่ DINOv3 ทำนาย", semantic: "ผลการจำแนกองค์ประกอบพื้นที่จาก DINOv3" };
@@ -28,7 +34,7 @@ function escapeHtml(value) { return String(value).replace(/[&<>'"]/g, (character
 
 async function serviceHealth() {
   try {
-    const response = await fetch("/api/health");
+    const response = await fetch(appUrl("api/health"));
     const data = await response.json();
     $("#service-state").textContent = data.mode === "local GPU inference" ? "พร้อมเชื่อมต่อการประมวลผลในเครื่อง" : "ตรวจสอบการตั้งค่าบริการ";
   } catch { $("#service-state").textContent = "ยังเชื่อมต่อบริการไม่ได้"; }
@@ -73,13 +79,13 @@ async function selectSampleImage(sampleId) {
   selector.disabled = true;
   $("#file-name").textContent = "กำลังโหลดภาพตัวอย่าง…";
   try {
-    const response = await fetch(`/api/sample-images/${encodeURIComponent(sampleId)}`);
+    const response = await fetch(appUrl(`api/sample-images/${encodeURIComponent(sampleId)}`));
     if (!response.ok) throw new Error("ไม่สามารถโหลดภาพตัวอย่างได้");
     const blob = await response.blob();
     const file = new File([blob], sample.filename, { type: blob.type || "image/jpeg" });
     showSelectedFile(file, {
       label: sample.label,
-      previewUrl: `/api/sample-images/${encodeURIComponent(sampleId)}`,
+      previewUrl: appUrl(`api/sample-images/${encodeURIComponent(sampleId)}`),
     });
   } catch (error) {
     showSelectedFile(null);
@@ -144,7 +150,7 @@ async function runAnalysis() {
   form.append("image", state.selectedFile);
   form.append("apply_geo_filter", $("#geo-filter").checked);
   try {
-    const response = await fetch("/api/analyse", { method: "POST", body: form });
+    const response = await fetch(appUrl("api/analyse"), { method: "POST", body: form });
     const data = await response.json();
     if (!response.ok) throw new Error(data.detail || "ไม่สามารถวิเคราะห์ภาพได้");
     renderResult(data);
@@ -161,7 +167,7 @@ async function runAnalysis() {
 function switchResult(kind) {
   if (!state.result || !state.result.images[kind]) return;
   document.querySelectorAll(".result-tab").forEach((button) => button.classList.toggle("is-active", button.dataset.result === kind));
-  $("#result-image").src = state.result.images[kind];
+  $("#result-image").src = appUrl(state.result.images[kind]);
   $("#result-caption").textContent = captions[kind];
 }
 
@@ -186,7 +192,7 @@ function renderCmGallery() {
   image.alt = `ภาพสรุปผล ${item.id}`;
   $("#cm-gallery-title").textContent = item.id;
   const areaPercent = statistics.class_area_percent || {};
-  const probabilityMap = item.class_probability_url ? `<section class="cm-gallery-probability-report"><div><p class="eyebrow">DINOV3 CLASS PROBABILITIES</p></div><figure><img src="${item.class_probability_url}" alt="DINOv3 probability maps for water, built area, green area, and vehicle in ${item.id}" /></figure></section>` : "";
+  const probabilityMap = item.class_probability_url ? `<section class="cm-gallery-probability-report"><div><p class="eyebrow">DINOV3 CLASS PROBABILITIES</p></div><figure><img src="${appUrl(item.class_probability_url)}" alt="DINOv3 probability maps for water, built area, green area, and vehicle in ${item.id}" /></figure></section>` : "";
   $("#cm-gallery-stats").innerHTML = `${probabilityMap}<section class="cm-gallery-area-report"><div><p class="eyebrow">DINOV3 AREA REPORT</p><h3>สัดส่วนพื้นที่รายภาพ</h3></div><p class="small-note">สัดส่วนพื้นที่ที่ DINOv3 คาดการณ์จากภาพ ${item.id}</p><div id="cm-gallery-class-bars" class="class-summary"></div><p class="small-note gallery-area-note">พื้นที่อื่น ๆ รวมพื้นหลังและยานพาหนะ</p></section>`;
   renderClassBars($("#cm-gallery-class-bars"), {
     "พื้นที่น้ำ": Number(areaPercent["พื้นที่น้ำ"]) || 0,
@@ -220,7 +226,7 @@ function renderResearch(data) {
 }
 async function loadResearch() {
   try {
-    const response = await fetch("/assets/study-assets/manifest.json?v=class-probability-strip-6");
+    const response = await fetch(appUrl("assets/study-assets/manifest.json?v=class-probability-strip-6"));
     if (!response.ok) throw new Error("ไม่พบชุดข้อมูลรายงานการศึกษา");
     state.research = await response.json();
     renderResearch(state.research);
@@ -255,7 +261,7 @@ async function uploadRaster() {
   const form = new FormData(); form.append("raster", file);
   $("#raster-status").textContent = "กำลังบันทึกภาพฐาน…";
   try {
-    const response = await fetch("/api/map/raster", { method: "POST", body: form });
+    const response = await fetch(appUrl("api/map/raster"), { method: "POST", body: form });
     const data = await response.json();
     if (!response.ok) throw new Error(data.detail || "บันทึกภาพฐานไม่สำเร็จ");
     $("#raster-status").textContent = data.message;
@@ -265,7 +271,7 @@ async function uploadRaster() {
 async function savePoints() {
   if (!state.result) return;
   try {
-    const response = await fetch("/api/map/georeference", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ job_id: state.result.job_id, points: state.controlPoints }) });
+    const response = await fetch(appUrl("api/map/georeference"), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ job_id: state.result.job_id, points: state.controlPoints }) });
     const data = await response.json();
     if (!response.ok) throw new Error(data.detail || "บันทึกจุดอ้างอิงไม่สำเร็จ");
     $("#georef-status").textContent = `Fit RMSE ${data.fit_rmse_m.toFixed(2)} m | Check RMSE ${data.check_rmse_m.toFixed(2)} m | ผลตำแหน่งเป็นข้อมูลโดยประมาณ`;
@@ -274,7 +280,7 @@ async function savePoints() {
 }
 
 async function getGeoJson(url) {
-  const response = await fetch(url);
+  const response = await fetch(appUrl(url));
   if (!response.ok) throw new Error(`โหลดชั้นข้อมูลไม่ได้: ${url}`);
   return response.json();
 }
@@ -359,7 +365,7 @@ function referencePopup(properties) {
 }
 
 async function loadOriginalImageIndex() {
-  const response = await fetch("/api/map/source-images");
+  const response = await fetch(appUrl("api/map/source-images"));
   if (!response.ok) throw new Error("ไม่สามารถโหลดภาพต้นฉบับของชุด CM ได้");
   const data = await response.json();
   return new Map((data.images || []).map((image) => [image.image_id, image]));
@@ -397,7 +403,7 @@ function fixedZonePopupHtml(zone) {
   const images = zone.images;
   const image = images[activeFixedZoneIndex];
   const preview = image
-    ? `<figure><img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.name)}"><figcaption><b>${escapeHtml(image.image_id)}</b><small>ที่มา: ${escapeHtml(zone.source)}</small></figcaption></figure>`
+    ? `<figure><img src="${escapeHtml(appUrl(image.url))}" alt="${escapeHtml(image.name)}"><figcaption><b>${escapeHtml(image.image_id)}</b><small>ที่มา: ${escapeHtml(zone.source)}</small></figcaption></figure>`
     : `<p class="zone-popup-empty">ไม่พบไฟล์ภาพต้นฉบับใน Pics_CM_Flood สำหรับชุดนี้</p>`;
   return `<section class="fixed-zone-popup-content"><p class="eyebrow">FLOOD IMAGE ZONE</p><h3>${escapeHtml(zone.imageIds.join(", "))}</h3><p class="small-note">${number(zone.count)} ภาพ · ที่มา: ${escapeHtml(zone.source)}</p>${preview}<div class="fixed-zone-popup-controls"><button type="button" data-fixed-zone-step="-1" ${images.length < 2 ? "disabled" : ""} aria-label="ภาพก่อนหน้า">←</button><output>${images.length ? `${activeFixedZoneIndex + 1} / ${images.length}` : "0 / 0"}</output><button type="button" data-fixed-zone-step="1" ${images.length < 2 ? "disabled" : ""} aria-label="ภาพถัดไป">→</button></div></section>`;
 }
@@ -926,7 +932,7 @@ function saveUserFloodPhotos() {
 function userFloodPhotoPopupHtml(photo) {
   const image = photo.image;
   const preview = image
-    ? `<figure><img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.name)}"><figcaption>${escapeHtml(image.name)}</figcaption></figure>`
+    ? `<figure><img src="${escapeHtml(appUrl(image.url))}" alt="${escapeHtml(image.name)}"><figcaption>${escapeHtml(image.name)}</figcaption></figure>`
     : "";
   return `<section class="fixed-zone-popup-content"><p class="eyebrow">USER FLOOD PHOTO</p><h3>${escapeHtml(photo.name)}</h3><p class="small-note">ตำแหน่งภาพ: ${Number(photo.latitude).toFixed(5)}, ${Number(photo.longitude).toFixed(5)}</p>${preview}</section>`;
 }
