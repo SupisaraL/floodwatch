@@ -124,7 +124,7 @@ function renderResult(data) {
   $("#vehicle-count").textContent = number(data.vehicle_objects || 0);
   $("#green-percent").textContent = `${data.class_area_percent["Green area"].toFixed(2)}%`;
   $("#built-percent").textContent = `${data.class_area_percent["Built area"].toFixed(2)}%`;
-  $("#result-image").src = data.images.water;
+  $("#result-image").src = appUrl(data.images.water);
   $("#result-caption").textContent = captions.water;
   $("#trees-result-tab").hidden = !data.images.trees;
   if (!data.images.trees) {
@@ -188,7 +188,7 @@ function renderCmGallery() {
   }
   const item = cmGallery[cmGalleryIndex];
   const statistics = item.statistics || {};
-  image.src = item.url;
+  image.src = appUrl(item.url);
   image.alt = `ภาพสรุปผล ${item.id}`;
   $("#cm-gallery-title").textContent = item.id;
   const areaPercent = statistics.class_area_percent || {};

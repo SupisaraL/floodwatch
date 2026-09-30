@@ -11,6 +11,7 @@ import hashlib
 import os
 import json
 import math
+from contextlib import nullcontext
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -83,11 +84,14 @@ class ResearchPipeline:
                 "Restart FloodWatch from the activated .venv terminal after installing its dependencies."
             ) from error
 
-        if not torch.cuda.is_available():
+        requested_device = os.environ.get("FLOODWATCH_DEVICE", "cuda").strip().lower()
+        if requested_device not in {"cuda", "cpu"}:
+            raise AnalysisUnavailable("FLOODWATCH_DEVICE must be either 'cuda' or 'cpu'.")
+        if requested_device == "cuda" and not torch.cuda.is_available():
             raise AnalysisUnavailable(
-                "CUDA-enabled PyTorch was not detected. Run "
-                "setup_windows_gpu.ps1 from the FloodWatch folder, restart the server, "
-                "then try the analysis again. No substitute estimate has been generated."
+                "CUDA-enabled PyTorch was not detected. Configure an NVIDIA GPU, or set "
+                "FLOODWATCH_DEVICE=cpu for the substantially slower CPU research pipeline. "
+                "No substitute estimate has been generated."
             )
 
         checkpoint_path = self.asset_dir / "fullmask_best_head.pt"
@@ -102,8 +106,9 @@ class ResearchPipeline:
         self.Image = Image
         self.GeoCalib = GeoCalib
         self.get_perspective_field = get_perspective_field
-        self.device = torch.device("cuda")
-        self.amp_dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+        self.using_cuda = requested_device == "cuda"
+        self.device = torch.device("cuda" if self.using_cuda else "cpu")
+        self.amp_dtype = (torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16) if self.using_cuda else torch.float32
 
         checkpoint = torch.load(checkpoint_path, map_location="cpu", weights_only=True)
         self.feature_dim = int(checkpoint["feature_dim"])
@@ -144,10 +149,14 @@ class ResearchPipeline:
                 model.to(device=self.device)
 
     def _release_gpu(self, *models) -> None:
-        """Return a completed stage to RAM before the next stage begins."""
+        """Return a completed CUDA stage to RAM; CPU mode keeps models on CPU."""
         for model in models:
             model.to("cpu")
-        self.torch.cuda.empty_cache()
+        if self.using_cuda:
+            self.torch.cuda.empty_cache()
+
+    def _autocast_context(self):
+        return self.torch.autocast("cuda", dtype=self.amp_dtype) if self.using_cuda else nullcontext()
 
     @staticmethod
     def _origins(length: int, tile: int, overlap: int) -> list[int]:
@@ -188,7 +197,7 @@ class ResearchPipeline:
                 inputs = self.processor(images=self.Image.fromarray(tile), do_resize=False, do_center_crop=False, return_tensors="pt").to(self.device)
                 tile_h, tile_w = inputs.pixel_values.shape[-2:]
                 grid_h, grid_w = tile_h // self.patch, tile_w // self.patch
-                with torch.inference_mode(), torch.autocast("cuda", dtype=self.amp_dtype):
+                with torch.inference_mode(), self._autocast_context():
                     tokens = self.dino(**inputs).last_hidden_state[:, -grid_h * grid_w:, :]
                     features = f.normalize(tokens.float(), dim=-1).reshape(grid_h, grid_w, self.feature_dim).permute(2, 0, 1)
                 value = features.cpu().numpy()
@@ -290,7 +299,7 @@ class ResearchPipeline:
                 if not allowed[y:y + tile.shape[0], x:x + tile.shape[1]].any():
                     continue
                 inputs = self.sam_processor(images=self.Image.fromarray(tile), text=prompt, return_tensors="pt").to(self.device)
-                with torch.inference_mode(), torch.autocast("cuda", dtype=self.amp_dtype):
+                with torch.inference_mode(), self._autocast_context():
                     output = self.sam(**inputs)
                 result = self.sam_processor.post_process_instance_segmentation(
                     output, threshold=threshold, mask_threshold=self.config.sam_mask_threshold,

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import shutil
 import uuid
 from pathlib import Path
@@ -48,10 +49,11 @@ def index():
 
 @app.get("/api/health")
 def health():
+    device = os.environ.get("FLOODWATCH_DEVICE", "cuda").strip().lower()
     return {
         "service": "FloodWatch local analysis service",
         "model": "DINOv3 + GeoCalib + SAM3",
-        "mode": "local GPU inference",
+        "mode": "CPU inference" if device == "cpu" else "local GPU inference",
         "note": "The model is loaded only after an image is analysed.",
     }
 
